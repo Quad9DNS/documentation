@@ -1,5 +1,5 @@
 site_name: Quad9 Documentation
-site_url: https://quad9dns.github.io/documentation
+site_url: https://quad9dns.github.io/
 
 plugins:
   - social
