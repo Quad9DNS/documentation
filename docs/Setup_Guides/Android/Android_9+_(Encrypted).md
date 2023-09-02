@@ -1,0 +1,23 @@
+## Overview
+
+Android 9 and later includes the `Private DNS` feature, which allows you to connect to DNS servers using DNS over TLS (DoT). It is important to note, that the private DNS function does not work if the Quad9 Connect app is installed and enabled. To configure your Android device to use Quad9 in this way, follow the steps below.
+
+!!! warning "VPNs"
+    The Private DNS feature will not be utilized if you are using a VPN. If using a VPN, insteadconfiguring Quad9's IP addresses in your VPN's `Custom DNS` settings. Please refer to your VPN provider's documentation fr more information
+
+## Instructions
+
+* Open `Settings` on your Android device.
+    * Select `Network & Internet`.
+        * Select `Advanced` at the bottom.
+            * Select `Private DNS`.
+
+* Select `Private DNS provider hostname`
+    * Enter: `dns.quad9.net`
+        * Press `Save`
+
+## Verify Configuration
+
+Questions? Issues? Didn't work? Contact us!
+
+[Get Support](https://quad9.net/support/contact){ .md-button .md-button--primary }

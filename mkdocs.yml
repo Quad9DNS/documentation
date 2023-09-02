@@ -1,0 +1,55 @@
+site_name: Quad9 Documentation
+site_url: https://quad9dns.github.io/documentation
+
+plugins:
+  - social
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  favicon: images/favicon.svg
+  logo: assets/quad9_all_white.svg
+  features:
+    - navigation.index
+    - navigation.sections
+    - navigation.instant
+      #    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+    - header.autohide
+  language: en
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to Light Mode
+      primary: pink
+      accent: pink
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to Dark Mode
+      primary: pink
+      accent: pink
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/quad9dns
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/quad9-dns/
+  generator: false
+
+copyright: |
+  &copy; 2023 <a href="https://quad9.net"  target="_blank" rel="noopener">Quad9.net</a>
