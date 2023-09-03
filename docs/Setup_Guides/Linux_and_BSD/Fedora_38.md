@@ -44,7 +44,7 @@ Multiple IP addresses can be entered in the list using comas.
 
 ## Verify Configuration
 
-Confirm you're using Quad9.
+Confirm you're using Quad9 by visiting [on.quad9.net](https://on.quad9.net) in your preferred browser.
 
 Questions? Issues? Didn't work? Contact us!
 
