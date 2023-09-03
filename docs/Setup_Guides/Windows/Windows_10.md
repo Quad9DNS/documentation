@@ -27,17 +27,19 @@ The easiest way to set Quad9 on your entire network is via your router settings.
 
 If your networks supports IPv6, it's also recommended to configure the Quad9 IPv6 addresses. If you're not sure if IPv6 is configured on your network, you can test that here: https://test-ipv6.com/
 
+* Select Internet Protocol Version 6 (TCP/IPv6)
+    * Click Properties.
 
-Select Internet Protocol Version 6 (TCP/IPv6).  Then click Properties.
+* Select `Use the following DNS server addresses`.
+    * Enter: `2620:fe::fe` in Preferred DNS Server
+    * Enter: `2620:fe::9` in Alternate DNS Server.
+        * Click `OK`.
 
-Select Use the following DNS server addresses.
-Enter: 2620:fe::fe in Preferred DNS Server
-Enter: 2620:fe::9 in Alternate DNS Server.
-Click OK.
+* Close all configuration windows.
 
 ## Verify Configuration
 
-Close all configuration boxes.  You should be using Quad9. To confirm you're using Quad9, please see How to Confirm You're Using Quad9 - Windows
+Confirm you're using Quad9 by visiting [on.quad9.net](https://on.quad9.net) in your preferred browser.
 
 Questions? Issues? Didn't work? Contact us!
 

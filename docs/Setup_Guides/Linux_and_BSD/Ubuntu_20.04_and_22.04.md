@@ -36,13 +36,13 @@ If your network/computer support IPv6, it's also recommended to configure the Qu
 
 Multiple IP addresses can be entered in the list using comas.
 
-2620:fe::fe, 2620:fe::9
+`2620:fe::fe, 2620:fe::9`
 
 * Click `Apply` to complete the setup process.
 
 ## Verify Configuration
 
-Confirm you're using Quad9.
+Confirm you're using Quad9 by visiting [on.quad9.net](https://on.quad9.net) in your preferred browser.
 
 Questions? Issues? Didn't work? Contact us!
 
