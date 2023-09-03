@@ -29,7 +29,9 @@ sudo grep unbound /etc/rc.conf
 
 If the following output is produced, local_unbound is already enabled, and you can skip to the next section:
 
+```
 local_unbound_enable="YES"
+```
 
 * If there is no output after this command, then local_unbound must be enabled.
     * Tell the system that we want to use local_unbound:
@@ -69,7 +71,7 @@ Configuring local_unbound for DNS over TLS to Quad9
 This command will back up the default configuration files, download the modified config files from the attachment of this article, and restart the local_unbound service.
 
 ```
-sudo mv /var/unbound/forward.conf /var/unbound/forward-ORIG.conf && sudo mv /var/unbound/unbound.conf /var/unbound/unbound-ORIG.conf && sudo fetch -o /var/unbound/unbound.conf https://support.quad9.net/hc/en-us/article_attachments/7201432423821/unbound.conf && sudo fetch -o /var/unbound/forward.conf https://support.quad9.net/hc/en-us/article_attachments/7201432405517/forward.conf && sudo service local_unbound restart
+sudo mv /var/unbound/forward.conf /var/unbound/forward-ORIG.conf && sudo mv /var/unbound/unbound.conf /var/unbound/unbound-ORIG.conf && sudo fetch -o /var/unbound/unbound.conf https://docs.quad9.net/assets/conf/freebsd/unbound.conf && sudo fetch -o /var/unbound/forward.conf https://docs.quad9.net/assets/conf/freebsd/forward.conf && sudo service local_unbound restart
 ```
 
 These files are configured for our 9.9.9.9 service by default, without IPv6. If you'd like to use the .10 or .11 service instead, and/or enable IPv6, open the `/var/unbound/forward.conf` file and un-comment/comment out the appropriate lines.

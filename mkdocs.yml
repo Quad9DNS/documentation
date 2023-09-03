@@ -49,6 +49,8 @@ extra:
       link: https://twitter.com/quad9dns
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/quad9-dns/
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/Quad9/
   generator: false
 
 copyright: |

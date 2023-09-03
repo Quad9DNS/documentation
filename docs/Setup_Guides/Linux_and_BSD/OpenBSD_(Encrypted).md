@@ -26,7 +26,7 @@ pkg_add wget
     You're encouraged to download and inspect the unbound.conf file in a text editor, which is attached to this article, before downloading it to your OpenBSD system.
 
 ```
-mv /var/unbound/etc/unbound.conf /var/unbound/etc/unbound.BAK && wget -O /var/unbound/etc/unbound.conf https://support.quad9.net/hc/en-us/article_attachments/7303290691981/unbound.conf
+mv /var/unbound/etc/unbound.conf /var/unbound/etc/unbound.BAK && wget -O /var/unbound/etc/unbound.conf https://docs.quad9.net/assets/conf/openbsd/unbound.conf
 ```
 
 Optional: If your network supports IPv6, open the /var/unbound/etc/unbound.conf file on OpenBSD with your favorite text editor, and make the following changes, removing the # (comment) before these lines begin.

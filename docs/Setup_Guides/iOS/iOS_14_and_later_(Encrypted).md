@@ -1,7 +1,5 @@
 ## Overview
 
-DNS over TLS (DoT) and DNS over HTTPS (DoH) are now supported natively in iOS versions 14 and higher. Using a .mobileconfig profile removes the need for a separate app, like DNSCloak, to use encrypted DNS.
-
 Please follow the steps below to install the Quad9 DNS Profile. Requires iOS 14 or later.
 
 !!! failure "VPNs, iCloud Private Relay, Little Snitch"
@@ -9,13 +7,13 @@ Please follow the steps below to install the Quad9 DNS Profile. Requires iOS 14 
 
     * **VPN**: do not follow these instructions. Instead set Quad9's IP addresses in the `Custom DNS` settings of your VPN client. Refer to your VPN client's documentation for further information.
    
-    * **Apple Private Relay**: do not follow these instructions. Apple private relay will use its own DNS servers at the system level, with no way to override it
+    * **Apple Private Relay**: do not follow these instructions. Apple private relay will use its own DNS servers at the system level, with no way to override it.
 
 ## Choosing DNS over TLS or DNS over HTTPS
 
-DNS over TLS is recommended if the device will mainly connect to Wi-Fi networks you control, or on corporate networks where DNS over TLS is allowed.
+DNS over HTTPS is recommended for most users. If the device will frequently connect to guest Wi-Fi, and/or networks you do not administrate.
 
-DNS over HTTPS is recommended if the device will frequently connect to guest Wi-Fi, and/or networks you do not administrate, as DoH is not as commonly blocked on firewalls.
+DNS over TLS is recommended only if the device will mainly connect to Wi-Fi networks you control, or on corporate networks where DNS over TLS is allowed.
 
 ## Before You Start
 
@@ -23,10 +21,10 @@ DNS over HTTPS is recommended if the device will frequently connect to guest Wi-
     The App Store, as well as the `dig` and `nslookup` commands in a `Terminal` do not use encrypted DNS. This is by design.
 
 !!! warning "DNS over TLS"
-    If connected to a Wi-Fi network which blocks DNS over TLS, which may occur on restrictive network firewalls, you will have to disable the profile or disconnect from the network to regain DNS resolution. This solution does not allow for unencrypted "fallback" behavior. DNS over HTTPS is recommended for most users
+    If connected to a Wi-Fi network which blocks DNS over TLS, which may occur on restrictive network firewalls, you will have to disable the profile or disconnect from the network to regain DNS resolution. This solution does not allow for unencrypted "fallback" behavior. DNS over HTTPS is recommended for most users.
 
 !!! warning "This profile will expire!"
-    These profiles are only valid until they expire, at which point, they will automatically disable until a new profile is installed. This is by design of Apple, and there is no way around it."
+    These profiles are only valid until they expire, at which point, they will automatically disable until a new profile is installed. This is by design of Apple, and there is no way around it.
 
 ## Download Profile
 Download one of the profiles here directly using Safari on your iOS device. You must use Safari to download the file.
@@ -54,14 +52,14 @@ Download one of the profiles here directly using Safari on your iOS device. You 
 
 * Navigate to your Downloads folder and select to the profile you just downloaded.
     * Open `Settings` > `Profile Downloaded` and select the Quad9 profile you opened.
-        * Click Install
-            * Enter your phone's passcode
+        * Click `Install`.
+            * Enter your phone's passcode.
 !!! note
-    You will receive a warning message warning that your network traffic may be filtered or monitored by the DNS server. While Quad9’s profile can protect your device by filtering potentially malicious traffic, none of your traffic will be logged by Quad9. Please refer to our Privacy Policy for more information
+    You will receive a warning message warning that your network traffic may be filtered or monitored by the DNS server. While Quad9’s profile can protect your device by filtering potentially malicious traffic, none of your traffic will be logged by Quad9. Please refer to our [Privacy Policy](https://quad9.net/service/privacy) for more information.
 
-* Select Install, then Install again.
+* Select `Install`, then `Install` again.
 
-* The profile is now installed. Select `Done`
+* The profile is now installed. Select `Done`.
 
 ## Verify Configuration
 
