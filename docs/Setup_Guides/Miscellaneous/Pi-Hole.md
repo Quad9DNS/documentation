@@ -12,11 +12,11 @@ Once you have installed Pi-Hole and can access the administration panel, Quad9 i
 
 * In the Admin panel, navigate to `Settings` -> `DNS`
     * Check both IPv4 boxes next to Quad9 (filtered, DNSSEC)
-If your network/computer support IPv6, it's also recommended to check both IPv6 boxes. If you're not sure if IPv6 is configured on your network, you can test that here: https://test-ipv6.com/
+        * If your network support IPv6, it's also recommended to check both IPv6 boxes. If you're not sure if IPv6 is configured on your network, you can test that here: https://test-ipv6.com/
 
 * Check/Enable the options:
-    * Never forward non-FQDNs and Never forward reverse lookups for private IP ranges to prevent sending unanswerable DNS queries to Quad9.
-        * Click "Save" at the bottom.
+    * `Never forward non-FQDNs` and `Never forward reverse lookups for private IP ranges` to prevent sending unanswerable DNS queries to Quad9.
+        * Click `Save` at the bottom.
 
 ### Verify Configuration
 
