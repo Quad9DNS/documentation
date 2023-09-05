@@ -9,9 +9,14 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+     alternate_style: true
 
 extra_css:
   - stylesheets/extra.css
@@ -51,7 +56,6 @@ extra:
       link: https://www.linkedin.com/company/quad9-dns/
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/Quad9/
-  generator: false
 
 copyright: |
   &copy; 2023 <a href="https://quad9.net"  target="_blank" rel="noopener">Quad9.net</a>

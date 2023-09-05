@@ -29,41 +29,32 @@ Ensure that your DNS forwarders have enough memory or disk space allocated to th
 
 The amount of memory that should be dedicated to DNS caching varies greatly from megabytes to gigabytes based on the amount of DNS requests originating from your network endpoints.
 
-### dnsdist
+=== "BIND"
+    Bind caches in memory by default, so the only limitation is exhausting available memory in the system.
 
-dndsdist is a highly DNS-, DoS- and abuse-aware loadbalancer with impressive performance and is well suited as a caching and load balancing DNS forwarder.
+    To check the size of the current cache, you can dump the cache to a local file and then examine the file size, which will be approximately how much memory is being used by cache:
 
-Caching is disabled by default, but [can be enabled for in-memory storage](https://dnsdist.org/guides/cache.html).
+    ```
+    rndc dumpdb -all
+    ```
 
-### Unbound
+    ```
+    ls -alh /var/bind/
+    ```
+=== "dnsdist"
+    Caching is disabled by default, but [can be enabled for in-memory storage](https://dnsdist.org/guides/cache.html).
+=== "Unbound"
+    Allocated cache size is determined by the msg-cache-size and rrset-cache-size options in the [unbound.conf file](https://www.nlnetlabs.nl/documentation/unbound/unbound.conf/).
 
-Allocated cache size is determined by the msg-cache-size and rrset-cache-size options in the [unbound.conf file](https://www.nlnetlabs.nl/documentation/unbound/unbound.conf/).
+    You can check the amount of memory that your cache is currently using to compare against the cache size you allocated in unbound.conf by using the [unbound-control command](https://www.nlnetlabs.nl/documentation/unbound/unbound-control/) to view stats for mem.cache.rrset and mem.cache.message values.
 
-You can check the amount of memory that your cache is currently using to compare against the cache size you allocated in unbound.conf by using the [unbound-control command](https://www.nlnetlabs.nl/documentation/unbound/unbound-control/) to view stats for mem.cache.rrset and mem.cache.message values.
+=== "Knot Resolver"
+    Knot Resolver caches on disk by default, but can be configured to use memory/tmpfs, backends, and share cache between instances. Knot Resolver has [excellent documentation about all things caching](https://knot-resolver.readthedocs.io/en/stable/daemon-bindings-cache.html).
+=== "Windows DNS Server"
 
-### Knot Resolver
+    In-memory caching can be configured using the `Set-DnsServerCache` cmd applet.
 
-Knot Resolver caches on disk by default, but can be configured to use memory/tmpfs, backends, and share cache between instances. Knot Resolver has [excellent documentation about all things caching](https://knot-resolver.readthedocs.io/en/stable/daemon-bindings-cache.html).
-
-### BIND
-
-Bind caches in memory by default, so the only limitation is exhausting available memory in the system.
-
-To check the size of the current cache, you can dump the cache to a local file and then examine the file size, which will be approximately how much memory is being used by cache:
-
-```
-rndc dumpdb -all
-```
-
-```
-ls -alh /var/bind/
-```
-
-### Windows DNS Server
-
-In-memory caching can be configured using the `Set-DnsServerCache` cmd applet.
-
-Memory usage can be checked using the `Get-DnsServerStatistics` cmd applet.
+    Memory usage can be checked using the `Get-DnsServerStatistics` cmd applet.
 
 ## Use the Primary and Secondary Quad9 IP Addresses
 
@@ -83,6 +74,32 @@ Each DNS forwarder should, ideally, send and receive DNS queries to Quad9 using 
 
 Since Quad9 already performs DNSSEC validation, DNSSEC being enabled in the forwarder will cause a duplication of the DNSSEC process, significantly reducing performance and potentially causing false BOGUS responses.
 
+=== "dnsdist"
+    Add this in `dnsdist.conf` *above* your pool assignment.
+    ```
+    if noDNSSECOnNOSEC then
+      addAction(NetmaskGroupRule(nmgNOSEC, false), SetDisableValidationAction(), { name="R_NO_DS" })
+    end
+    ```
+=== "Knot Resolver"
+    Add this to your `knot-resolver.conf` file and reload/restart the `kresd` service.
+    ```
+    -- turns off DNSSEC validation
+    trust_anchors.remove('.')
+    ```
+=== "PowerDNS Recursor"
+    In `recursor.conf`, disable `dnssec` and reload/restart `pdns-recursor`.
+    ```
+    dnssec=off
+    ```
+=== "Unbound"
+    Comment out these lines in `unbound.conf` and reload/restart unbound.
+    ```
+    trust-anchor-file:
+    auto-trust-anchor-file:
+    trust-anchor:
+    trusted-keys-file:
+    ```
 Questions? Issues? Contact us!
 
 [Get Support](https://quad9.net/support/contact){ .md-button .md-button--primary }

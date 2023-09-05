@@ -1,3 +1,39 @@
+## How Do I Confirm I'm Using Quad9?
+
+The simplest test is to open [on.quad9.net](https://on.quad9.net) in your browser of choice.
+
+## Detecting DNS Transparent Redirection (Hijacks)
+
+Some ISPs, most often in Asia, Africa, or the Middle East, will transparently redirect DNS requests destined for third-party DNS services, like Quad9, to their own DNS forwarders/servers. This may be an attempt to enforce local policies/laws, or to simply increase their cache HIT rate on their DNS forwarders.
+
+You can detect a transparent DNS redirection by executing the following command from the Command Prompt or Terminal of any operating system. If the answer is anything except `resXXX.xxx.rrdns.pch.net`, then DNS is being transparently redirected.
+
+=== "Windows (PowerShell)"
+
+    ```
+    nslookup -q=txt -class=chaos id.server. 9.9.9.9 | Select-String "pch"
+    ```
+
+=== "MacOS/Linux/BSD (Terminal)"
+    ```
+    dig +short ch txt id.server. @9.9.9.9
+    ```
+If the output does not look similar to the following, or there is no output, then DNS is being transparently redirected.
+
+=== "Windows (PowerShell)"
+    ```
+    Non-authoritative answer:
+    "res200.vie.rrdns.pch.net"
+    ```
+
+=== "MacOS/Linux/BSD (Terminal)"
+    ```
+    "res860.qfra3.rrdns.pch.net"
+    ```
+### My ISP is transparently redirecting DNS. Now what?
+
+Please refer to our Setup Guides appended with `(Encrypted)` in the title. By using encrypted DNS, transparent DNS redirection will not be possible.
+
 ## What is EDNS Client Subnet (ECS)?
 
 Quad9's `9.9.9.11` service supports ECS.
@@ -12,13 +48,10 @@ ECS can be viewed as a trade off between privacy and getting geospecific content
 
 ## Network Providers / DNS Leak Tests
 
-Quad9 utilizes multiple network providers in our global network. When running a DNS leak test, or determining the IP address which is used to perform the recursive DNS query using a test like:
+Quad9 utilizes multiple network providers in our global network. When running a DNS leak test, it's expected to see IP addresses owned by the following providers:
 
-```
-dig +short A whoami.akamai.net
-```
-
-it's expected to see IP addresses owned by the following providers:
+!!! note "Recommended DNS Leak Test Tool"
+    [dnscheck.tools](https://dnscheck.tools/)
 
 * WoodyNet (AKA PCH.net)
 * PCH.net
