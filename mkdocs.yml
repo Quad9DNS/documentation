@@ -25,6 +25,7 @@ theme:
   name: material
   favicon: images/favicon.svg
   logo: assets/quad9_all_white.svg
+  font: false
   features:
     - navigation.index
     - navigation.sections
