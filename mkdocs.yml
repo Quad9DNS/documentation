@@ -1,5 +1,5 @@
 site_name: Quad9 Documentation
-site_url: https://quad9dns.github.io/
+site_url: https://quad9dns.github.io/documentation
 
 plugins:
   - social
@@ -56,6 +56,10 @@ extra:
       link: https://www.linkedin.com/company/quad9-dns/
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/Quad9/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/quad9dns/
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@quad9dns
 
 copyright: |
   &copy; 2023 <a href="https://quad9.net"  target="_blank" rel="noopener">Quad9.net</a>
