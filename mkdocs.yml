@@ -1,5 +1,6 @@
 site_name: Quad9 Documentation
 site_url: https://quad9dns.github.io/documentation
+repo_url: https://github.com/Quad9DNS/documentation
 
 plugins:
   - social
@@ -30,7 +31,6 @@ theme:
     - navigation.index
     - navigation.sections
     - navigation.instant
-      #    - navigation.expand
     - toc.integrate
     - content.code.copy
     - header.autohide

@@ -2,6 +2,35 @@
 
 The simplest test is to open [on.quad9.net](https://on.quad9.net) in your browser of choice.
 
+## Identifying a Quad9 block
+
+The quickest way to see if a domain is blocked at Quad9 is using our [Blocked Domain Tester](https://quad9.net/result).
+
+When Quad9 blocks a domain, the response is `NXDOMAIN`. `NXDOMAIN` is also returned when a domain does not exist.To differentiate between domains that are nonexistent, and domains that are blocked, we set the `AUTHORITY` value differently.  When you receive an `NXDOMAIN` with `AUTHORITY: 0`, that is a block from Quad9. When you receive `NXDOMAIN` *with* `AUTHORITY: 1`, then that is a domain that does not exist.
+
+A domain will also fail to resolve if DNSSEC authentication fails, but that will result in the `SERVFAIL` code instead of `NXDOMAIN`.
+
+=== "Blocked domain"
+
+    `dig @9.9.9.9 isitblocked.org | grep "status\|AUTHORITY"`
+    ```
+    ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29193
+    ;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+    ```
+=== "Nonexistent domain"
+
+    `dig @9.9.9.9 sfaisofnadgre.odafds | grep "status\|AUTHORITY:"`
+    ```
+    ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22595
+    ;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+    ```
+=== "DNSSEC Failure"
+    
+    `dig @9.9.9.9 A brokendnssec.net +dnssec | grep status`
+    ```
+    ;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 40999
+    ```
+
 ## Detecting DNS Transparent Redirection (Hijacks)
 
 Some ISPs, most often in Asia, Africa, or the Middle East, will transparently redirect DNS requests destined for third-party DNS services, like Quad9, to their own DNS forwarders/servers. This may be an attempt to enforce local policies/laws, or to simply increase their cache HIT rate on their DNS forwarders.
