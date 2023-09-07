@@ -82,7 +82,7 @@ Since Quad9 already performs DNSSEC validation, DNSSEC being enabled in the forw
     end
     ```
 === "Knot Resolver"
-    Add this to your `knot-resolver.conf` file and reload/restart the `kresd` service.
+    Add this to the `kresd.conf` file and reload/restart the `kresd` service.
     ```
     -- turns off DNSSEC validation
     trust_anchors.remove('.')
@@ -100,6 +100,29 @@ Since Quad9 already performs DNSSEC validation, DNSSEC being enabled in the forw
     trust-anchor:
     trusted-keys-file:
     ```
+
+## Disable QNAME Minimization
+
+QNAME Minimization is a privacy feature that is intended to be used when you operate a recursive resolver (Quad9), but in a DNS forwarder, it provides no privacy enhancement and significantly reduces performance. [What is QNAME Minimization?](https://www.isc.org/blogs/qname-minimization-and-privacy/)
+
+=== "BIND"
+    In the ```options {``` section of the named.conf file, add the following line and reload/restart named/bind9.
+    ```
+    qname-minimization disabled;
+    ```
+=== "dnsdist"
+    QNAME Minimization is not supported in dnsdist. Nothing to do here.
+=== "Unbound"
+    Add this option in `unbound.conf` and reload/restart unbound. 
+    ```
+    qname-minimisation: no
+    ```
+=== "Knot Resolver"
+    In the `kresd.conf` file, add a policy to disable QNAME Minimization.
+    ```
+    policy.add(policy.all(policy.FLAGS('NO_MINIMIZE')))
+    ```
+
 Questions? Issues? Contact us!
 
 [Get Support](https://quad9.net/support/contact){ .md-button .md-button--primary }

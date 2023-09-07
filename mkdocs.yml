@@ -25,7 +25,7 @@ extra_css:
 theme:
   name: material
   favicon: images/favicon.svg
-  logo: assets/quad9_all_white.svg
+  logo: assets/logo_light.svg
   font: false
   features:
     - navigation.index

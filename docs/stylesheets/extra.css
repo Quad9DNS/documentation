@@ -9,3 +9,23 @@
 .heart {
   animation: heart 1000ms infinite;
 }
+
+.md-header {
+  background-color: hsla(0, 0%, 0%, 0.32);
+}
+
+.md-ellipsis {
+  font-size: 16px;
+}
+
+.md-nav__title {
+  font-size: 16px;
+}
+
+#.md-typeset h1 {
+#  color: var(--md-accent-fg-color);
+#}
+
+#.md-nav__item {
+#  font-size: 30px;
+#}
