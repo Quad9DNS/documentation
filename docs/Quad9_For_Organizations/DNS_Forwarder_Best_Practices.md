@@ -113,12 +113,12 @@ QNAME Minimization is a privacy feature that is intended to be used when you ope
 === "dnsdist"
     QNAME Minimization is not supported in dnsdist. Nothing to do here.
 === "Unbound"
-    Add this option in `unbound.conf` and reload/restart unbound. 
+    Add this in the `unbound.conf` and reload/restart unbound. 
     ```
     qname-minimisation: no
     ```
 === "Knot Resolver"
-    In the `kresd.conf` file, add a policy to disable QNAME Minimization.
+    In the `kresd.conf` file, add a policy to disable QNAME Minimization and restart/reload the `kresd` service.
     ```
     policy.add(policy.all(policy.FLAGS('NO_MINIMIZE')))
     ```

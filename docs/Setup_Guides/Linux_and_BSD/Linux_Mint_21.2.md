@@ -22,7 +22,7 @@ The easiest way to set Quad9 on your entire network is via your router settings.
 
 ## Verify Configuration
 
-Open [on.quad9.net](https://on.quad9.net) in a browser.
+Confirm you're using Quad9 by visiting [on.quad9.net](https://on.quad9.net) in your preferred browser.
 
 Questions? Issues? Didn't work? Contact us!
 
