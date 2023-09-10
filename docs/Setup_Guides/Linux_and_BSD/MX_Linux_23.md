@@ -1,6 +1,6 @@
 ## Overview
 
-The easiest way to set Quad9 on your entire network is via your router settings. If you'd prefer to set Quad9 on a single system, please follow the steps below to configure Fedora 38 to use Quad9.
+The easiest way to set Quad9 on your entire network is via your router settings. If you'd prefer to set Quad9 on a single system, please follow the steps below to configure MX Linux 23 to use Quad9.
 
 !!! warning "Firefox, VPNs"
     * **Firefox** is set to use Cloudflare DNS by default in some regions. If you're using Firefox, check that [this is disabled](https://support.mozilla.org/en-US/kb/dns-over-https#w_configure-doh-protection-settings).
