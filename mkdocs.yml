@@ -5,7 +5,7 @@ repo_url: https://github.com/Quad9DNS/documentation
 plugins:
   - social:
       cards_layout_options:
-        background_color: "#4287ff26"
+        background_color: "#2E303E"
   - search
 
 markdown_extensions:
