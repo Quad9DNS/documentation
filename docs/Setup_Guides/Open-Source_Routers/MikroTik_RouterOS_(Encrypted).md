@@ -15,13 +15,13 @@ RouterOS >=6.4.7 is required. These instructions were tested using RouterOS 7.1.
     * Download the certificate to your MikroTik router:
 
 ```
-/tool/fetch mode=https url="https://support.quad9.net/hc/en-us/article_attachments/4618235579021/digicert-root-ca.pem"
+/tool/fetch mode=https url="https://cacerts.digicert.com/DigiCertGlobalRootCA.crt.pem"
 ```
 
 * Import the certificate into the local certificate store. When prompted for a passphrase, just hit enter for no passphrase:
 
 ```
-/certificate/import file-name=digicert-root-ca.pem
+/certificate/import file-name=DigiCertGlobalRootCA.crt.pem
 ```
 
 The resulting output should be:
@@ -40,7 +40,7 @@ keys-with-no-certificate: 0
 
 !!! warning
 
-    If your network does not have IPv6, then the IPv6 addresses should not be added, as it may result in a percentage of your DNS requests failing. Not sure if you have IPv6? [Test here](https://port.tools/ipv6-test/).
+    If your network does not support IPv6, then the IPv6 addresses should not be added, as it may result in a percentage of your DNS requests failing. Not sure if you have IPv6? [Test here](https://port.tools/ipv6-test/).
 
 *  Use DoH Server: `https://dns.quad9.net/dns-query`
 *  Verify DoH Certificate: `Enabled`
