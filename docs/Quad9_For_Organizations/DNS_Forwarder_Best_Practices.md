@@ -10,18 +10,21 @@ Caching forwarders and their optimal configuration are critical when sending que
 
 ### Performance
 Reducing the amount of queries that recurse to Quad9, saving bandwidth and providing a faster experience for the end user when their queries are already in the forwarders' cache.
-Security - Enabling logging is advised to identify possible compromise from specific endpoints or customers, and is sometimes required by local law.
+
+
+### Security
+Enabling query logging or some type of high-level metrics is advised to identify possible compromise from specific endpoints or customers, and is sometimes required by local law.
 
 ### Local Policy
 Being able to block or analyze certain FQDNs at the forwarder level puts more control in the hands of the network administrator without relying exclusively on Quad9 to block malicious domains.
 
 When setting Quad9 as the recursive resolver in your infrastructure and caching DNS forwarders, please consider the following best practices.
 
-## Exclusivity
+### Exclusivity
 
 Since DNS forwarders use round-robin ordering when forwarding queries to a list of recursive DNS servers, Quad9 must be set as the exclusive recursive DNS servers in your forwarders. Adding additional, non-Quad9 recursive DNS servers will result in a percentage of your DNS queries not being protected by Quad9's threat blocking.
 
-## Caching
+### Caching
 
 It is imperative that your DNS forwarders are configured to cache response data in order to avoid excessive recursive queries to Quad9 and to provide significantly faster DNS resolution for devices on the network.
 
@@ -56,21 +59,21 @@ The amount of memory that should be dedicated to DNS caching varies greatly from
 
     Memory usage can be checked using the `Get-DnsServerStatistics` cmd applet.
 
-## Use the Primary and Secondary Quad9 IP Addresses
+### Use the Primary and Secondary Quad9 IP Addresses
 
 Configuring both the primary *and* secondary IP of your desired Quad9 service helps naturally load balance the DNS queries in the Quad9 infrastructure.
 
-## Use IPv6
+### Use IPv6
 
 If your network is capable of IPv6, also configure the primary and secondary IPv6 addresses of your desired Quad9 service in your DNS forwarders, which helps naturally load balance the DNS queries in the Quad9 infrastructure.
 
 If IPv6 is not in use, Quad9 strongly encourages you to investigate how to get it enabled on your network. IPv6 route paths are often faster compared to IPv4 paths, which leads to a higher chance of success at faster speeds with better redundancy.
 
-## Separate IP Addresses for Each DNS Forwarder
+### Separate IP Addresses for Each DNS Forwarder
 
 Each DNS forwarder should, ideally, send and receive DNS queries to Quad9 using different public IPv4 and IPv6 addresses, even if the addresses are within the same subnet.
 
-## Disable DNSSEC Validation
+### Disable DNSSEC Validation
 
 Since Quad9 already performs DNSSEC validation, DNSSEC being enabled in the forwarder will cause a duplication of the DNSSEC process, significantly reducing performance and potentially causing false BOGUS responses.
 
@@ -101,7 +104,7 @@ Since Quad9 already performs DNSSEC validation, DNSSEC being enabled in the forw
     trusted-keys-file:
     ```
 
-## Disable QNAME Minimization
+### Disable QNAME Minimization
 
 QNAME Minimization is a privacy feature that is intended to be used when you operate a recursive resolver (Quad9), but in a DNS forwarder, it provides no privacy enhancement and significantly reduces performance. [What is QNAME Minimization?](https://www.isc.org/blogs/qname-minimization-and-privacy/)
 
