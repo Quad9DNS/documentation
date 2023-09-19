@@ -88,7 +88,7 @@ Quad9 utilizes multiple network providers in our global network. When running a 
 * i3D
 * EdgeUno
 * Equinix Metal (FKA: Packet, Packet.net, or Packethost)
-* Path Networks
+* Path.net (Path Networks)
 
 These organizations are also listed on the Sponsors page of the Quad9 website: [quad9.net/about/sponsors](https://quad9.net/about/sponsors)
 
