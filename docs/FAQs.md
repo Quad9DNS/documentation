@@ -2,6 +2,30 @@
 
 The simplest test is to open [on.quad9.net](https://on.quad9.net) in your browser of choice.
 
+## Protocol Test - Confirm on which Protocol Quad9 received your query
+
+Confirm which protocol is used when Quad9 receives your DNS queries. This is particularly relevant after setting up DNS encryption, such as DNS over TLS or DNS over HTTPS, in the operating system, router, DNS forwarder.
+
+Execute the following command and refer to the possible responses below:
+
+=== "Windows (PowerShell/Terminal)"
+
+    `Resolve-DnsName -Type txt proto.on.quad9.net.`
+=== "MacOS/Linux/Unix (Terminal)"
+
+    `dig +short txt proto.on.quad9.net.`
+
+Possible Responses:
+
+* do53-udp (53/UDP - Plaintext)
+* do53-tcp (53/TCP - Plaintext)
+* doh (443/TCP - DNS over HTTPS)
+* dot (853/TCP - DNS over TLS)
+* dnscrypt-udp (UDP - DNSCrypt)
+* dnscrypt-tcp (TCP - DNSCrypt)
+
+If you do not receive a response (NXDOMAIN), then Quad9 was not used to perform this DNS query.
+
 ## Identifying a Quad9 block
 
 The quickest way to see if a domain is blocked at Quad9 is using our [Blocked Domain Tester](https://quad9.net/result).

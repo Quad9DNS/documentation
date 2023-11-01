@@ -1,6 +1,6 @@
 site_name: Quad9 Documentation
 site_url: https://quad9dns.github.io/documentation/
-repo_url: https://github.com/Quad9DNS/documentation
+  #repo_url: https://github.com/Quad9DNS/documentation
 
 plugins:
   - social:
