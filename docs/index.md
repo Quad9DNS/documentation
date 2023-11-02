@@ -25,7 +25,7 @@ When using Quad9's industry-leading threat blocking secure service (9.9.9.9), Qu
 
 ### Encryption
 
-Quad9 supports DNS over TLS (DoT), DNS over DoH (DoH), and DNSCrypt.
+Quad9 supports DNS over TLS (DoT), DNS over HTTPS (DoH), and DNSCrypt.
 
 ## Questions / Support
 
