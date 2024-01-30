@@ -63,13 +63,13 @@ theme:
       accent: pink
 
 extra:
-  alternate:
-    - name: English
-      link: /documentation/ 
-      lang: en
-    - name: Français
-      link: /documentation/fr/
-      lang: fr
+  #  alternate:
+  # - name: English
+  #   link: /documentation/ 
+  #   lang: en
+  # - name: Français
+  #   link: /documentation/fr/
+  #   lang: fr
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/quad9dns
