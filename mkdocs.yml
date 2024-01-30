@@ -1,5 +1,5 @@
 site_name: Quad9 Documentation
-site_url: https://quad9dns.github.io/documentation/
+site_url: https://quad9dns.github.io/documentation
   #repo_url: https://github.com/Quad9DNS/documentation
 
 plugins:
@@ -7,7 +7,18 @@ plugins:
       cards_layout_options:
         background_color: "#2E303E"
   - search
-
+  - i18n:
+      reconfigure_material: true
+      fallback_to_default: false
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
 markdown_extensions:
   - admonition
   - attr_list
@@ -32,7 +43,7 @@ theme:
   features:
     - navigation.index
     - navigation.sections
-    - navigation.instant
+      #    - navigation.instant
     - toc.integrate
     - content.code.copy
     - header.autohide
@@ -52,6 +63,13 @@ theme:
       accent: pink
 
 extra:
+  alternate:
+    - name: English
+      link: /documentation/ 
+      lang: en
+    - name: Français
+      link: /documentation/fr/
+      lang: fr
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/quad9dns
@@ -65,4 +83,4 @@ extra:
       link: https://mastodon.social/@quad9dns
 
 copyright: |
-  &copy; 2023 <a href="https://quad9.net"  target="_blank" rel="noopener">Quad9.net</a>
+  &copy; 2023-2024 <a href="https://quad9.net"  target="_blank" rel="noopener">Quad9.net</a>

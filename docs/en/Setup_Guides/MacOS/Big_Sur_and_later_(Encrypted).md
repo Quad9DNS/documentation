@@ -52,7 +52,7 @@ Download one of the profiles here directly using Safari on your MacOS device. Yo
 
 * 9.9.9.12 (No DNSSEC, no Threat-Blocking, with ECS)
     * [DNS over TLS - 9.9.9.12](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_ECS_20250129.mobileconfig) (Expires Jan 29, 2025)
-    * [DNS over HTTPS - 9.9.9.12](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig) (Expires Jan 29, 2025)
+    * [DNS over HTTPS - 9.9.9.12](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig) (Expires Jan 29, 2025) 
 
 ## Installation
 
