@@ -36,7 +36,7 @@ Download one of the profiles here directly using Safari on your iOS device. You 
     * [DNS over TLS - 9.9.9.9](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig) (Expires Jan 29, 2025)
     * [DNS over HTTPS - 9.9.9.9](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig) (Expires Jan 29, 2025)
 
-* 9.9.9.10 (No DNSSEC, no Threat-Blocking) (Expires Feb 1st, 2024)
+* 9.9.9.10 (No DNSSEC, no Threat-Blocking)
     * [DNS over TLS - 9.9.9.10](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_20250129.mobileconfig) (Expires Jan 29, 2025)
     * [DNS over HTTPS  - 9.9.9.10](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_20250129.mobileconfig) (Expires Jan 29, 2025)
 
