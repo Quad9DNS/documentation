@@ -10,12 +10,12 @@ Ejecute el siguiente comando y consulte las posibles respuestas a continuación:
 
 === "Windows (PowerShell/Terminal)"
 
-`Resolve-DnsName -Escriba txt proto.on.quad9.net.`
+    `Resolve-DnsName -Type txt proto.on.quad9.net.`
 === "MacOS/Linux/Unix (Terminal)"
 
     `dig +short txt proto.on.quad9.net.`
 
-Possible Responses:
+Posibles respuestas:
 
 * do53-udp (53/UDP - Plaintext)
 * do53-tcp (53/TCP - Plaintext)
@@ -28,7 +28,7 @@ Si no recibe una respuesta (NXDOMAIN), entonces Quad9 no se utilizó para realiz
 
 ## Identificando un bloque Quad9
 
-La forma más rápida de ver si un dominio está bloqueado en Quad9 es utilizando nuestro [Probador de dominios bloqueados] (https://quad9.net/result).
+La forma más rápida de ver si un dominio está bloqueado en Quad9 es utilizando nuestro [Probador de dominios bloqueados] (https://quad9.net/es/result).
 
 Cuando Quad9 bloquea un dominio, la respuesta es "NXDOMAIN". `NXDOMAIN` también se devuelve cuando un dominio no existe. Para diferenciar entre dominios que no existen y dominios que están bloqueados, configuramos el valor `AUTHORITY` de manera diferente. Cuando recibe un `NXDOMAIN` con `AUTHORITY: 0`, ese es un bloque de Quad9. Cuando recibe `NXDOMAIN` *con* `AUTHORITY: 1`, entonces ese es un dominio que no existe.
 
@@ -106,12 +106,12 @@ Quad9 utiliza múltiples proveedores de red en nuestra red global. Al ejecutar u
 !!! tenga en cuenta "Herramienta de prueba de fugas de DNS recomendada"
     [dnscheck.tools](https://dnscheck.tools/)
 
-* WoodyNet (AKA PCH.net)
+* WoodyNet
 * PCH.net
 * GSL Networks
 * i3D
 * EdgeUno
-* Equinix Metal (FKA: Packet, Packet.net, or Packethost)
+* Equinix Metal (Packet, Packet.net, Packethost)
 * Path.net (Path Network)
 
 Estas organizaciones también figuran en la página de Patrocinadores del sitio web de Quad9: [quad9.net/about/sponsors](https://quad9.net/about/sponsors)
