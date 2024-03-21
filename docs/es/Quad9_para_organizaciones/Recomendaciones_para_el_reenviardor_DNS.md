@@ -44,14 +44,14 @@ La cantidad de memoria que se debe dedicar al almacenamiento en caché de DNS va
     ls -alh /var/bind/
     ```
 === "dnsdist"
-    El almacenamiento en caché está deshabilitado de forma predeterminada, pero [se puede habilitar para el almacenamiento en memoria] (https://dnsdist.org/guides/cache.html).
+    El almacenamiento en caché está deshabilitado de forma predeterminada, pero [se puede habilitar para el almacenamiento en memoria](https://dnsdist.org/guides/cache.html).
 === "Unbound"
-    El tamaño de caché asignado está determinado por las opciones msg-cache-size y rrset-cache-size en el [archivo unbound.conf] (https://www.nlnetlabs.nl/documentation/unbound/unbound.conf/).
+    El tamaño de caché asignado está determinado por las opciones msg-cache-size y rrset-cache-size en el [archivo unbound.conf](https://www.nlnetlabs.nl/documentation/unbound/unbound.conf/).
 
      Puede verificar la cantidad de memoria que su caché está usando actualmente para compararla con el tamaño de caché que asignó en unbound.conf usando el [comando unbound-control](https://www.nlnetlabs.nl/documentation/unbound/unbound -control/) para ver las estadísticas de los valores mem.cache.rrset y mem.cache.message.
 
 === "Knot Resolver"
-    Knot Resolver almacena en caché en el disco de forma predeterminada, pero se puede configurar para usar memoria/tmpfs, backends y compartir caché entre instancias. Knot Resolver tiene [excelente documentación sobre todo lo relacionado con el almacenamiento en caché] (https://knot-resolver.readthedocs.io/en/stable/daemon-bindings-cache.html).
+    Knot Resolver almacena en caché en el disco de forma predeterminada, pero se puede configurar para usar memoria/tmpfs, backends y compartir caché entre instancias. Knot Resolver tiene [excelente documentación sobre todo lo relacionado con el almacenamiento en caché](https://knot-resolver.readthedocs.io/en/stable/daemon-bindings-cache.html).
 === "Windows DNS Server"
 El almacenamiento en caché en memoria se puede configurar utilizando el subprograma cmd `Set-DnsServerCache`.
 
