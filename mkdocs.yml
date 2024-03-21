@@ -66,13 +66,16 @@ theme:
       accent: pink
 
 extra:
-  #alternate:
-    #- name: English
-      #link: /
-        #lang: en
-        #- name: Français
-      #link: /fr/
-        #lang: fr
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Español
+      link: /es/
+      lang: es
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/quad9dns
