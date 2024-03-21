@@ -8,7 +8,7 @@ Quad9 es una organización sin fines de lucro con sede en Suiza que opera un ser
 
 Quad9 está financiado en parte por usuarios como usted. Si valora nuestro servicio, considere hacer una donación.
 <figure markdown>
-  [Donate :octicons-heart-fill-24:{ .heart }](https://quad9.net/donate){ .md-button .md-button--primary }
+  [Haga un donativo :octicons-heart-fill-24:{ .heart }](https://quad9.net/es/donate){ .md-button .md-button--primary }
 </figure>
 
 ## ¿Por qué Quad9?
@@ -31,4 +31,4 @@ Quad9 soporta DNS sobre TLS (DoT), DNS sobre HTTPS (DoH) y DNSCrypt.
 
 Para cualquier pregunta sobre Quad9 o nuestra documentación, ¡contáctenos!
 
-[Obtenga soporte](https://quad9.net/support/contact){ .md-button .md-button--primary }
+[Obtenga soporte](https://quad9.net/es/support/contact){ .md-button .md-button--primary }
