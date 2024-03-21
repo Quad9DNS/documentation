@@ -19,6 +19,9 @@ plugins:
         - locale: fr
           name: Français
           build: true
+        - locale: es
+          name: Español
+          build: true
 markdown_extensions:
   - admonition
   - attr_list
@@ -63,13 +66,13 @@ theme:
       accent: pink
 
 extra:
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: Français
-      link: /fr/
-      lang: fr
+  #alternate:
+    #- name: English
+      #link: /
+        #lang: en
+        #- name: Français
+      #link: /fr/
+        #lang: fr
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/quad9dns
