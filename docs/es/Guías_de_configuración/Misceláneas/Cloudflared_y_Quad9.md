@@ -1,4 +1,4 @@
-Cloudflared es un proxy DNS sobre HTTPS que se puede configurar para usar Quad9 para la resolución de DNS.
+Cloudflared es un proxy DNS over HTTPS que se puede configurar para usar Quad9 para la resolución de DNS.
 
 * En el archivo de configuración `cloudflared.yml`, reemplace las IP de Cloudflare en la sección `proxy-dns-upstream` con las direcciones Quad9 asociadas con las funciones que desee.
      * Reinicie el servicio `cloudflared`
@@ -29,4 +29,4 @@ proxy-dns-upstream:
 
 ¿Preguntas? ¿Asuntos? ¿No funcionó? ¡Contáctenos!
 
-[Obtenga soporte](https://quad9.net/support/contact){ .md-button .md-button--primary }
+[Obtenga soporte](https://quad9.net/es/support/contact){ .md-button .md-button--primary }

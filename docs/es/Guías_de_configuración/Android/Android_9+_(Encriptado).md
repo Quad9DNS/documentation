@@ -7,13 +7,13 @@ Android 9 y versiones posteriores incluyen la función "DNS privado", que le per
 
 ## Instrucciones
 
-* Abra la aplicación :material-cog: `Settings` en su dispositivo Android.
-     * Seleccione :material-wifi: `Network & Internet`.
-         * Seleccione `Private DNS`.
+* Abra la aplicación :material-cog: `Ajustes` en su dispositivo Android.
+     * Seleccione :material-wifi: `Conexión y compartir`.
+         * Seleccione `DNS privado`.
 
-* Seleccione ``Private DNS provider hostname`
+* Seleccione `Nombre de host del provedor de DNS privado`
      * Ingrese: `dns.quad9.net`
-         * Presione `Save`
+         * Presione `Guardar`
 
 ## Verificar configuración
 
@@ -21,4 +21,4 @@ Visite [on.quad9.net](https://on.quad9.net) en el navegador de su elección.
 
 ¿Preguntas? ¿Asuntos? ¿No funcionó? ¡Contáctenos!
 
-[Obtenga soporte](https://quad9.net/support/contact){ .md-button .md-button--primary }
+[Obtenga soporte](https://quad9.net/es/support/contact){ .md-button .md-button--primary }
