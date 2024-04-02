@@ -15,18 +15,13 @@ This was tested using OpenBSD 7.1.
 
 You must be logged in as the root user directly or by running the `su` command and typing in your password in a Terminal session.
 
-* Install wget if not already installed.
-```
-pkg_add wget
-```
-
 * Back up the default unbound.conf file and download the replacement `unbound.conf` file, which is pre-configured for sending DNS queries to Quad9 via DNS over TLS.
 
 !!! note
     You're encouraged to download and inspect the unbound.conf file in a text editor, which is attached to this article, before downloading it to your OpenBSD system.
 
 ```
-mv /var/unbound/etc/unbound.conf /var/unbound/etc/unbound.BAK && wget -O /var/unbound/etc/unbound.conf https://docs.quad9.net/assets/conf/openbsd/unbound.conf
+mv /var/unbound/etc/unbound.conf /var/unbound/etc/unbound.BAK && ftp -o /var/unbound/etc/unbound.conf https://docs.quad9.net/assets/conf/openbsd/unbound.conf
 ```
 
 Optional: If your network supports IPv6, open the /var/unbound/etc/unbound.conf file on OpenBSD with your favorite text editor, and make the following changes, removing the # (comment) before these lines begin.
