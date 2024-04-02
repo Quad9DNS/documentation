@@ -9,7 +9,7 @@ OPNsense utilises Unbound, qui est compatible avec DNS over TLS, la configuratio
 
 ### Instructions
 
-* Allez dans `Services` -> `DNS over TLS` dans le menu de gauche
+* Allez dans `Services` -> `Unbound DNS -> `DNS over TLS` dans le menu de gauche
     * Cliquez sur le boutton +
         * Ajoutez 4 entrées, en utilisant `dns.quad9.net` dans le champ **Verify CN**, et `853` dans le champ **Server Port:**.
 
