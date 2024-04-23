@@ -13,7 +13,7 @@ Set up Quad9 in Windows DNS Server for use in DNS forwarding.
 * From the DNS Manager, right-click your server and select `Properties`
     * Select the `Forwarders` tab and then select `Edit`.
         * Add the following IP addresses: `9.9.9.9`, `149.112.112.112`
-        * If your network supports IPv6, also add: `2620:fe:fe`, 2620:fe::9
+        * If your network supports IPv6, also add: `2620:fe::fe`, `2620:fe::9`
             * Click "Apply"
 
 Questions? Issues? Contact us!
