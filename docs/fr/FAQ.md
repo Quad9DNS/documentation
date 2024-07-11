@@ -108,11 +108,11 @@ Quad9 utilizes multiple network providers in our global network. When running a 
 
 * WoodyNet (AKA PCH.net)
 * PCH.net
-* GSL Networks
 * i3D
 * EdgeUno
 * Equinix Metal (FKA: Packet, Packet.net, or Packethost)
 * Path.net (Path Network)
+* E-MAX (Bratislava, SK)
 
 Ces organisations sont également répertoriées sur la page Sponsors du site Quad9 : [quad9.net/about/sponsors](https://quad9.net/fr/about/sponsors)
 
