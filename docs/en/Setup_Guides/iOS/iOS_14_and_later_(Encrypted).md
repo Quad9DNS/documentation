@@ -44,9 +44,9 @@ Download one of the profiles here directly using Safari on your iOS device. You 
         * SHA256: `5dc6b70a7e6d0971a6e988c4f46423d4bdbc66f443d6d92f43c3719675304ea7`
 
 * 9.9.9.11 (DNSSEC, Threat-Blocking, with ECS)
-    * [DNS over TLS - 9.9.9.11 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
+    * [:fontawesome-solid-download: DNS over TLS - 9.9.9.11](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
         * SHA256: `8126f0187de219a0e9df2e2df104df1ffc0f2efa2af3e6d5c441268b3f6a020d`
-    * [DNS over HTTPS - 9.9.9.11 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
+    * [:fontawesome-solid-file-arrow-down: DNS over HTTPS - 9.9.9.11](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
         * SHA256: `8c9ce407e7032d91252be58c65237d3014710df6622d37d7c0ed40bb80502e70`
 
 * 9.9.9.12 (No DNSSEC, no Threat-Blocking, with ECS)
