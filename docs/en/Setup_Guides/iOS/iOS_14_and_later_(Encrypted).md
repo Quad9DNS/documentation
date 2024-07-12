@@ -33,7 +33,10 @@ Download one of the profiles here directly using Safari on your iOS device. You 
     If you do not know which file to choose, we recommend **DNS over HTTPS - 9.9.9.9 (DNSSEC, Threat-Blocking)**
 
 * 9.9.9.9 (DNSSEC, Threat-Blocking)
-    * [DNS over TLS - 9.9.9.9](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig) (Expires Jan 29, 2025)
+<figure markdown>
+  [:octicons-star-fill-24:{ .heart } Recommended: DNS over TLS - 9.9.9.9 :octicons-star-fill-24:{ .heart }](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary } (Expires Jan 29, 2025)
+</figure>
+    * [DNS over TLS - 9.9.9.9](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary } (Expires Jan 29, 2025)
         * SHA256: `6d826edcf0e7f89c32352266896c8aacd96da8074789d1ecf01f9f60fcc63d8d`
     * [DNS over HTTPS - 9.9.9.9](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig) (Expires Jan 29, 2025)
         * SHA256: `eeabc4e42bd701e0afc74c9da706024e2df40cca38d9ae3f6be92eaa91986db1`
