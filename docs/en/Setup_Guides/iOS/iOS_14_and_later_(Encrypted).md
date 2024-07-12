@@ -74,4 +74,4 @@ To confirm the installation was successful, visit [on.quad9.net](https://on.quad
 
 Questions? Issues? Didn't work? Contact us!
 
-[Get Support](https://quad9.net/support/contact){ .md-button .md-button--primary }
+[Get Support :fontawesome-solid-arrow-up-right-from-square:](https://quad9.net/support/contact){ .md-button .md-button--primary }
