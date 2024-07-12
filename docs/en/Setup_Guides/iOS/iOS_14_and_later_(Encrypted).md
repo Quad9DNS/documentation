@@ -32,10 +32,10 @@ Download one of the profiles here directly using Safari on your iOS device. You 
 **All profiles expire on Jan 29, 2025** - We recommend setting a calendar invite 3-4 days before to remind you to download a new profile from this page.
 
 * 9.9.9.9 (DNSSEC, Threat-Blocking)
-    * [:octicons-star-fill-24:{ .heart } Recommended: DNS over TLS - 9.9.9.9 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `6d826edcf0e7f89c32352266896c8aacd96da8074789d1ecf01f9f60fcc63d8d`
-    * [DNS over HTTPS - 9.9.9.9 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig){ .md-button .md-button--primary }
+    * [:octicons-star-fill-24:{ .heart } Recommended: DNS over HTTPS - 9.9.9.9 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig){ .md-button .md-button--primary }
         * SHA256: `eeabc4e42bd701e0afc74c9da706024e2df40cca38d9ae3f6be92eaa91986db1`
+    * [DNS over TLS - 9.9.9.9 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `6d826edcf0e7f89c32352266896c8aacd96da8074789d1ecf01f9f60fcc63d8d`
 
 * 9.9.9.10 (No DNSSEC, no Threat-Blocking)
     * [DNS over TLS - 9.9.9.10 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary }
@@ -52,7 +52,7 @@ Download one of the profiles here directly using Safari on your iOS device. You 
 * 9.9.9.12 (No DNSSEC, no Threat-Blocking, with ECS)
     * [DNS over TLS - 9.9.9.12 :octicons-download-24:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
         * SHA256: `fe5943d6ad5dd553cf321e7be251cc6da68db1056ab6d754e581c8ab2e3adbb4`
-    * [DNS over HTTPS - 9.9.9.12 :fontawesome-cloud-arrow-down:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
+    * [DNS over HTTPS - 9.9.9.12 :fontawesome-solid-cloud-arrow-down:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
         * SHA256: `79cd0536250e6a1292b318a490057c17d03fd0c90768fad2f999c59b58d89345`
 
 ## Installation
