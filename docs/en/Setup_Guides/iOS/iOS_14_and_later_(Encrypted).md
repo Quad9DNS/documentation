@@ -29,16 +29,12 @@ DNS over TLS is recommended only if the device will mainly connect to Wi-Fi netw
 ## Download Profile
 Download one of the profiles here directly using Safari on your iOS device. You must use Safari to download the file.
 
-!!! note
-    If you do not know which file to choose, we recommend **DNS over HTTPS - 9.9.9.9 (DNSSEC, Threat-Blocking)**
-
 * 9.9.9.9 (DNSSEC, Threat-Blocking)
-<figure markdown>
-  [:octicons-star-fill-24:{ .heart } Recommended: DNS over TLS - 9.9.9.9 :octicons-star-fill-24:{ .heart }](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary } (Expires Jan 29, 2025)
-</figure>
-    * [DNS over TLS - 9.9.9.9](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary } (Expires Jan 29, 2025)
+    * [:octicons-star-fill-24:{ .heart } Recommended: DNS over TLS - 9.9.9.9 :octicons-download-24](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary }
+        * (Expires Jan 29, 2025)
         * SHA256: `6d826edcf0e7f89c32352266896c8aacd96da8074789d1ecf01f9f60fcc63d8d`
-    * [DNS over HTTPS - 9.9.9.9](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig) (Expires Jan 29, 2025)
+    * [DNS over HTTPS - 9.9.9.9 :octicons-download-24](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig){ .md-button .md-button--primary }
+        * (Expires Jan 29, 2025)
         * SHA256: `eeabc4e42bd701e0afc74c9da706024e2df40cca38d9ae3f6be92eaa91986db1`
 
 * 9.9.9.10 (No DNSSEC, no Threat-Blocking)
