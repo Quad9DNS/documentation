@@ -9,11 +9,11 @@ Please follow the steps below to install the Quad9 DNS Profile. Requires iOS 14 
    
     * **Apple Private Relay**: do not follow these instructions. Apple private relay will use its own DNS servers at the system level, with no way to override it.
 
-## Choosing DNS over TLS or DNS over HTTPS
+## TLS vs HTTPS
 
-DNS over HTTPS is recommended for most users. If the device will frequently connect to guest Wi-Fi, and/or networks you do not administrate.
+DNS over HTTPS is recommended for most users. If the device will frequently connect to guest Wi-Fi and/or networks you do not administrate. HTTPS has a minuscule chance of being blocked on firewalls.
 
-DNS over TLS is recommended only if the device will mainly connect to Wi-Fi networks you control, or on corporate networks where DNS over TLS is allowed.
+DNS over TLS is recommended only if the device will mainly connect to Wi-Fi networks you control, or on corporate networks where DNS over TLS is allowed. TLS has a higher chance of being blocked on firewalls.
 
 ## Before You Start
 
@@ -26,11 +26,12 @@ DNS over TLS is recommended only if the device will mainly connect to Wi-Fi netw
 !!! warning "Profiles expire on January 29th, 2025!"
     These profiles are only valid until they expire, at which point, they will automatically disable until a new profile is installed. This is by design of Apple, and there is no way around it.
 
-    Reminder yourself to download a new version a few days before they expire by adding a calendar event:
+    Remind yourself to download a new version a few days before they expire by adding a calendar event:
+    
     [:fontawesome-solid-calendar-days: Add Calendar Event (.ics) :fontawesome-solid-download:](){ .md-button .md-button--primary }
 
 ## Download Profile
-Download one of the profiles here directly using :fontawesome-solid-safari: Safari on your iOS device. This will not work if downloaded with a different browser.
+Download one of the profiles here directly using :fontawesome-brand-safari: Safari on your iOS device. This will not work if downloaded with a different browser.
 
 * 9.9.9.9 (DNSSEC, Threat-Blocking)
     * [:fontawesome-solid-star:{ .heart } Recommended: HTTPS (.9) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig){ .md-button .md-button--primary }
