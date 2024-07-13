@@ -31,7 +31,7 @@ DNS over TLS is recommended only if the device will mainly connect to Wi-Fi netw
     [:fontawesome-solid-calendar-days: Add Calendar Event (.ics) :fontawesome-solid-download:](){ .md-button .md-button--primary }
 
 ## Download Profile
-Download one of the profiles here directly using :fontawesome-brand-safari: Safari on your iOS device. This will not work if downloaded with a different browser.
+Download one of the profiles here directly using :fontawesome-brands-safari: Safari on your iOS device. This will not work if downloaded with a different browser.
 
 * 9.9.9.9 (DNSSEC, Threat-Blocking)
     * [:fontawesome-solid-star:{ .heart } Recommended: HTTPS (.9) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig){ .md-button .md-button--primary }
