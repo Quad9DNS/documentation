@@ -28,7 +28,7 @@ DNS over TLS is recommended only if the device will mainly connect to Wi-Fi netw
 
     Remind yourself to download a new version a few days before they expire by adding a calendar event:
     
-    [:fontawesome-solid-calendar-days: Add Calendar Event (.ics) :fontawesome-solid-download:](){ .md-button .md-button--primary }
+    [:fontawesome-solid-calendar-days: Add Calendar Event (.ics) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_MobileConfig2025_en.ics){ .md-button .md-button--primary }
 
 ## Download Profile
 Download one of the profiles here directly using :fontawesome-brands-safari: Safari on your iOS device. This will not work if downloaded with a different browser.

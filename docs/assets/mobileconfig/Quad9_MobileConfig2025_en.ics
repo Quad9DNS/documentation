@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20240713T120611Z
+UID:1720870904542-76385@ical.marudot.com
+DTSTART;VALUE=DATE:20250124
+DTEND;VALUE=DATE:20250126
+SUMMARY:Quad9 - New 2025 Apple MobileConfig
+DESCRIPTION:Hello Me\,\n\nI wanted to remind myself that the Quad9 .mobileconfig profile\, installed on my iOS and/or MacOS device to use Quad9 for encrypted DNS\, expires on January 29th\, 2025\, and I may want to download and import the new one from here:\n\nhttps://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_%28Encrypted%29/
+TRANSP:TRANSPARENT
+CLASS:PRIVATE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quad9 - New 2025 Apple MobileConfig
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
