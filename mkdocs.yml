@@ -1,6 +1,6 @@
 site_name: Quad9 Documentation
 site_url: https://quad9dns.github.io/documentation
-  #repo_url: https://github.com/Quad9DNS/documentation
+repo_url: https://github.com/Quad9DNS/documentation
 
 plugins:
   - social:
@@ -89,5 +89,4 @@ extra:
       link: https://mastodon.social/@quad9dns
 
 copyright: |
-  &copy; 2023-2024 <a href="https://quad9.net"  target="_blank" rel="noopener">Quad9.net</a>
-  &#10;&#13; All content licensed under Creative Commons Attribution-ShareAlike 4.0 License unless otherwise specified
+  &copy; 2023-2024 <a href="https://quad9.net"  target="_blank" rel="noopener">Quad9.net</a> \n All content licensed under Creative Commons Attribution-ShareAlike 4.0 License unless otherwise specified
