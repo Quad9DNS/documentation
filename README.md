@@ -12,7 +12,3 @@ You can also [open a support ticket](https://quad9.net/support/contact) to reque
 Due to the sheer amount of consumer-grade router makes, models, and variances in user interfaces between firmware versions, we will typically not add router-specific instructions.
 
 Open-source router software (IPFire, OPNsense, pfSense, etc) is supported, since we can test in a lab environment with VMs and do not require physical access.
-
-# Multiple Languages
-
-Versions available in other languages are planned. If you'd like to offer a translation, please contact us: support[@]quad9.net. You must be familiar with Git and markdown.
