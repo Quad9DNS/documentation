@@ -15,7 +15,7 @@ Quad9 está financiado en parte por usuarios como usted. Si valora nuestro servi
 
 ### Privacidad por ley
 
-Quad9 nunca registrará/registrará las direcciones IP de los usuarios finales. Nunca.
+Quad9 nunca registrará/guardará las direcciones IP de los usuarios finales. Nunca.
 
 Estas no son sólo palabras en un sitio web. Como organización con sede en Suiza, Quad9 está sujeta a estrictas leyes suizas de privacidad en Internet.
 
