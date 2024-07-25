@@ -15,13 +15,13 @@ RouterOS >=6.4.7 is required. These instructions were tested using RouterOS 7.1.
     * Download the certificate to your MikroTik router:
 
 ```
-/tool/fetch mode=https url="https://cacerts.digicert.com/DigiCertGlobalRootCA.crt.pem"
+/tool/fetch mode=https url="https://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-1.crt.pem"
 ```
 
 * Import the certificate into the local certificate store. When prompted for a passphrase, just hit enter for no passphrase:
 
 ```
-/certificate/import file-name=DigiCertGlobalRootCA.crt.pem
+/certificate/import file-name=DigiCertGlobalG3TLSECCSHA3842020CA1-1.crt.pem
 ```
 
 The resulting output should be:
