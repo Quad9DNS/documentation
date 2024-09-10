@@ -1,4 +1,4 @@
-## Apperçu
+## Aperçu
 
 La manière la plus simple pour configurer Quad9 sur tout votre réseau se fait via les paramètres de votre routeur. Si vous préférez configurer Quad9 sur un appareil Windows individuel, veuillez suivre les étapes ci-dessous afin de configurer Windows 10 pour utiliser Quad9.
 
