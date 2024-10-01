@@ -19,19 +19,30 @@ The easiest way to set Quad9 on your entire network is via your router settings.
 
 * Make the following changes:
     * Change `Automatic (DHCP)` to `Manual`
-    * Toggle the `On` switch to change the DNS server
+    * Toggle the `On` switch under `IPv4` to change the DNS server
     * Enter into `Preferred DNS`: 9.9.9.9
-        * Set `Preferred DNS encryption` to `Encrypted Only (DNS over HTTPS)`
+        * Set `DNS over HTTPS` to `On (automatic template)`
     * Enter into `Alternate DNS`: 149.112.112.112
-        * Set Alternate DNS encryption to Encrypted Only (DNS over HTTPS)
+        * Set `DNS over HTTPS` to `On (automatic template)`
 !!! note
-    If using a laptop that roams to other networks which may block DNS over HTTPS, consider choosing `Encryption preferred, unencrypted allowed` instead of `Encrypted Only`.
+    If using a laptop that roams to other networks which may block DNS over HTTPS, consider toggling the `Fallback to plaintext` switch.
 
 * Click `Save`
 
 ### IPv6
-If using IPv6, which you can confirm here, you should also scroll down and set up Quad9 on IPv6.
-Note: if Windows is not configured with an IPv6 address, setting up an IPv6 DNS server could cause DNS resolution to fail.
+If using IPv6, which you can confirm here: https://test-ipv6.com/, you should also scroll down and set up Quad9 on IPv6.
+
+* Make the following changes:
+    * Toggle the `On` switch under `IPv6` to change the DNS server
+    * Enter into `Preferred DNS`: 2620:fe::fe
+        * Set `DNS over HTTPS` to `On (automatic template)`
+    * Enter into `Alternate DNS`: 2620:fe::9
+        * Set `DNS over HTTPS` to `On (automatic template)`
+  !!! note
+    If Windows is not configured with an IPv6 address, setting up an IPv6 DNS server could cause DNS resolution to fail.
+    If using a laptop that roams to other networks which may block DNS over HTTPS, consider toggling the `Fallback to plaintext` switch.
+
+* Click `Save` 
 
 ## Verify Configuration
 
