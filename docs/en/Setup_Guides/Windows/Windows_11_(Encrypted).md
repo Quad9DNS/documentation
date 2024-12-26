@@ -38,7 +38,7 @@ If using IPv6, which you can confirm here: https://test-ipv6.com/, you should al
         * Set `DNS over HTTPS` to `On (automatic template)`
     * Enter into `Alternate DNS`: 2620:fe::9
         * Set `DNS over HTTPS` to `On (automatic template)`
-  !!! note
+!!! note
     If Windows is not configured with an IPv6 address, setting up an IPv6 DNS server could cause DNS resolution to fail.
     If using a laptop that roams to other networks which may block DNS over HTTPS, consider toggling the `Fallback to plaintext` switch.
 

@@ -3,12 +3,12 @@ Quad9 Public-Facing Documentation available at [docs.quad9.net](https://docs.qua
 
 # New Article Requests or Corrections
 
-Please open an Issue to request any corrections or additions of Setup Guides, FAQ entries, etc. Pull requests are not allowed.
+Pull requests are allowed for typos and minor corrections only. New articles will likely not be merged, since they will need to be translated.
 
-You can also [open a support ticket](https://quad9.net/support/contact) to request a new article or a correction.
+Please open an Issue in GitHub or [open a support ticket](https://quad9.net/support/contact) for requesting net-new articles.
 
 # Consumer Routers
 
 Due to the sheer amount of consumer-grade router makes, models, and variances in user interfaces between firmware versions, we will typically not add router-specific instructions.
 
-Open-source router software (IPFire, OPNsense, pfSense, etc) is supported, since we can test in a lab environment with VMs and do not require physical access.
+Open-source router software (IPFire, OPNsense, pfSense, etc) is supported, since we can test in a lab environment with VMs and do not require physical access to a device.
