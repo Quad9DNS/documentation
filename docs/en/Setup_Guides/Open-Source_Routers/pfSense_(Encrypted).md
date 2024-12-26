@@ -11,7 +11,7 @@ pfSense utilizes Unbound, which has built-in DNS over TLS support, with the conf
 
 ## Instructions
 
-Navigate to `System` -> `Generate Setup` on the top menu.
+Navigate to `System` -> `General Setup` on the top menu.
 
 * Click `Add DNS Server` until there are 4 rows of entries available.
 * Add the Quad9 IPv4 and IPv6 addresses on the left fields:
