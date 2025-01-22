@@ -23,12 +23,10 @@ DNS over TLS is recommended only if the device will mainly connect to Wi-Fi netw
 !!! warning "DNS over TLS"
     If connected to a Wi-Fi network which blocks DNS over TLS, which may occur on restrictive network firewalls, you will have to disable the profile or disconnect from the network to regain DNS resolution. This solution does not allow for unencrypted "fallback" behavior. DNS over HTTPS is recommended for most users.
 
-!!! warning "Profiles expire on January 29th, 2025!"
+!!! warning "Profiles expire on January 20th, 2026!"
     These profiles are only valid until they expire, at which point, they will automatically disable until a new profile is installed. This is by design of Apple, and there is no way around it.
 
     Remind yourself to download a new version a few days before they expire by adding a calendar event:
-    
-    [:fontawesome-solid-calendar-days: Add Calendar Event (.ics) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_MobileConfig2025_en.ics){ .md-button .md-button--primary }
 
 ## Download Profile
 Download one of the profiles here directly using :fontawesome-brands-safari: Safari on your iOS device. This will not work if downloaded with a different browser.
