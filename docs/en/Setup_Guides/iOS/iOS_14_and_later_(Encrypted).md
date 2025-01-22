@@ -34,28 +34,28 @@ DNS over TLS is recommended only if the device will mainly connect to Wi-Fi netw
 Download one of the profiles here directly using :fontawesome-brands-safari: Safari on your iOS device. This will not work if downloaded with a different browser.
 
 * 9.9.9.9 (DNSSEC, Threat-Blocking)
-    * [:fontawesome-solid-star:{ .heart } Recommended: HTTPS (.9) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `eeabc4e42bd701e0afc74c9da706024e2df40cca38d9ae3f6be92eaa91986db1`
-    * [TLS (.9) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `6d826edcf0e7f89c32352266896c8aacd96da8074789d1ecf01f9f60fcc63d8d`
+    * [:fontawesome-solid-star:{ .heart } Recommended: HTTPS (.9) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `b240f046a16f7d0e5df6458f5121221c4f118bf4d415cd8cce47d10b6fd46d36`
+    * [TLS (.9) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `d132d71447bc3b43e371a86533e4d12fa46a4690a63abf77b2ceae72a1b3cef3`
 
 * 9.9.9.10 (No DNSSEC, no Threat-Blocking)
-    * [HTTPS (.10) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `5dc6b70a7e6d0971a6e988c4f46423d4bdbc66f443d6d92f43c3719675304ea7`
-    * [TLS (.10) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `cde1057b6dc6f61f73963299a22e7bb2eaa17100cdc60e69896c1f132804859c`
+    * [HTTPS (.10) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `42cb9445417dc81ced18c33d943c23559a81afb018d440bf465bb0635a44bb66`
+    * [TLS (.10) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `86588f6d2dac42d03b155c7f557b4dd05b354059736aaa4ec8f3ef4d3ca2548e`
 
 * 9.9.9.11 (DNSSEC, Threat-Blocking, with ECS)
-    * [HTTPS (.11) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `8c9ce407e7032d91252be58c65237d3014710df6622d37d7c0ed40bb80502e70`
-    * [TLS (.11) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `8126f0187de219a0e9df2e2df104df1ffc0f2efa2af3e6d5c441268b3f6a020d`
+    * [HTTPS (.11) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_ECS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `38c52f0755c4ec053c685e1ebf3b9956841a81373df2cc2e9dc962a418ac6993`
+    * [TLS (.11) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_TLS_ECS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `abf69de093831cf8c4d644d234a3a594d13026415533ad1bb2b9f1540f307a46`
 
 * 9.9.9.12 (No DNSSEC, no Threat-Blocking, with ECS)
-    * [HTTPS (.12) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `79cd0536250e6a1292b318a490057c17d03fd0c90768fad2f999c59b58d89345`
-    * [TLS (.12) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_ECS_20250129.mobileconfig){ .md-button .md-button--primary }
-        * SHA256: `fe5943d6ad5dd553cf321e7be251cc6da68db1056ab6d754e581c8ab2e3adbb4`
+    * [HTTPS (.12) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_HTTPS_ECS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `eccb63252a1cd6726d42a1d72c58e11503cf06a0de6977d2472386f9cc88d9d8`
+    * [TLS (.12) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_un_Secured_DNS_over_TLS_ECS_20260126.mobileconfig){ .md-button .md-button--primary }
+        * SHA256: `0b01df454c9e4ee7f39b0a79e63920c6fa6e44f1fe17c0064bb8da6ce68bcb04`
 
 ## Installation
 
