@@ -86,7 +86,7 @@ Dacă rezultatul nu arată similar cu următorul sau nu există niciun rezultat,
     ```
 ### ISP-ul meu redirecționează transparent DNS. Ce se întâmplă acum?
 
-Vă rugăm să consultați Ghidurile noastre de configurare al căror titlu conține `(Criptat)`. Prin utilizarea DNS criptat, redirecționarea DNS transparentă nu va fi posibilă.
+Vă rugăm să consultați Ghidurile noastre de configurare al căror titlu conține `(Encrypted)`. Prin utilizarea DNS criptat, redirecționarea DNS transparentă nu va fi posibilă.
 
 ## Ce este EDNS Client Subnet (ECS)?
 

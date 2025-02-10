@@ -7,11 +7,11 @@ Configurați Quad9 în Windows DNS Server pentru utilizarea în redirecționarea
 
 ## Instrucțiuni
 
-* Deschideți `Server Manager` din meniul `Start`.
-    * Din `Server Manager`, selectați `Tools` > `DNS`
+* Deschideți `Manager server` din meniul `Porniți`.
+    * Din `Manager server`, selectați `Instrumente` > `DNS`
 
-* Din DNS Manager, faceți clic dreapta pe serverul dvs. și selectați `Properties`
-    * Selectați fila `Forwarders` și apoi selectați `Edit`.
+* Din DNS Manager, faceți clic dreapta pe serverul dvs. și selectați `Proprietăți`
+    * Selectați fila `Redirecționări` și apoi selectați `Editați`.
         * Adăugați următoarele adrese IP: `9.9.9.9`, `149.112.112.112`
         * Dacă rețeaua dvs. acceptă IPv6, adăugați și: `2620:fe::fe`, `2620:fe::9`
             * Faceți clic pe "Aplicare"
