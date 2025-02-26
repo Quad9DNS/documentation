@@ -22,6 +22,9 @@ plugins:
         - locale: es
           name: Español
           build: true
+        - locale: ro
+          name: Româna
+          build: true
 markdown_extensions:
   - admonition
   - attr_list
