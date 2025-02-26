@@ -76,6 +76,9 @@ extra:
     - name: Español
       link: /es/
       lang: es
+    - name: Româna
+      link: /ro/
+      lang: ro
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/quad9dns
