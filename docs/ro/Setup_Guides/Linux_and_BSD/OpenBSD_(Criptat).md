@@ -4,7 +4,7 @@ Acest articol descrie modul de configurare și utilizare a Unbound pe OpenBSD pe
 
 Acest lucru a fost testat utilizând OpenBSD 7.1.
 
-!!! avertisment „Firefox, VPN-uri”
+!!! avertisment "Firefox, VPN-uri”
     * **Firefox** este setat să utilizeze Cloudflare DNS în mod implicit în unele regiuni. Dacă utilizați Firefox, verificați dacă [acest lucru este dezactivat](https://support.mozilla.org/en-US/kb/dns-over-https#w_configure-doh-protection-settings).
     * **VPN-urile** de obicei nu respectă setările DNS la nivel de sistem sau router. Dacă utilizați un VPN, configurați adresele IP ale Quad9 în setările `Custom DNS` ale clientului VPN. Consultați documentația furnizorului dvs. de VPN pentru informații suplimentare.
 

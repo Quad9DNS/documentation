@@ -54,6 +54,6 @@ sudo sed -i 's/DNSOverTLS=yes/#DNSOverTLS=no/g' /etc/systemd/resolved.conf
 sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
 ```
 
-Questions? Issues? Didn't work? Contact us!
+Întrebări? Probleme? Nu a funcționat? Contactați-ne!
 
 [Get Support](https://quad9.net/support/contact){ .md-button .md-button--primary }
