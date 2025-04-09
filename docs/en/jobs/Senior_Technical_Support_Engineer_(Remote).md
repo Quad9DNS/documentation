@@ -1,10 +1,12 @@
-## About the job
+## About
 
-This is a Tier-2 or Tier-3 position for a full-time, Mid-to-Senior Technical Support Engineer (Remote - UTC-0300 to UTC-0500 - North/South Americas)
+**Submit Resumes to: [jobs@quad9.net](mailto:jobs@quad9.net)**
+
+This is a Tier-2 or Tier-3 position for a full-time, Mid-to-Senior Technical Support Engineer (Remote - UTC-3 to UTC-5 - North/South Americas)
 
 Quad9, a non-profit cybersecurity and privacy organization headquartered in Zurich, Switzerland, is looking for a Tier-2 or Tier-3 Technical Support Engineer.
 
-We are a small team that builds and operates one of the worldâ€™s largest open recursive DNS resolvers, distributed in hundreds of locations worldwide in more than 100 nations. We incorporate cybersecurity as a standard part of our main offerings, and we have exceptionally high privacy standards to ensure user data is protected against observation and exploitation. The service is freely offered and our end users vary from individual users, hospitals, schools, small and mid-sized corporations, and ISPs with hundreds of thousands or millions of users.
+We are a small team that builds and operates one of the world's largest open recursive DNS resolvers, distributed in hundreds of locations worldwide in more than 100 nations. We incorporate cybersecurity as a standard part of our main offerings, and we have exceptionally high privacy standards to ensure user data is protected against observation and exploitation. The service is freely offered and our end users vary from individual users, hospitals, schools, small and mid-sized corporations, and ISPs with hundreds of thousands or millions of users.
 
 Our mission is clear, and the team is cohesive and fast-moving. The speed of change is significant, and the technology in the DNS area is changing quickly and Quad9 drives some of that change. This position is on the edge of that interaction between our typically technically-savvy user community and the rest of the team, and is the translation point of policy, engineering, and operational activity.
 
@@ -18,7 +20,7 @@ The position reports to the General Manager, though daily tasking will be ticket
 
 * Communicate with external networks and services to investigate and resolve issues which require mutual troubleshooting and analysis. IE: Authoritative DNS services, ISPs, CDNs.
 
-* Perform basic threat analysis on domain names reported as false positives or false negatives in relation to Quad9â€™s threat-blocking service.
+* Perform basic threat analysis on domain names reported as false positives or false negatives in relation to Quad9's threat-blocking service.
 
 * Learn and understand the Quad9 Anycast network and why and how ISPs route to a specific Quad9 PoP. Analyze "ASN paths'' (network routes) and flag unexpected results. 
 
@@ -52,8 +54,7 @@ The position reports to the General Manager, though daily tasking will be ticket
 
 * Available to attend an annual all-hands meeting, typically in Europe, for approximately 3-4 days per year.
 
-* The position is entirely remote, but preferred applications will be located in a region in the UTC-0300 to UTC-0500 timezones of North/South America. The location of â€œBuenos Ai
-
+* The position is entirely remote, but preferred applications will be located in a region in the UTC-3 to UTC-5 timezones of North/South America.
 
 
 ## Nice to Have
