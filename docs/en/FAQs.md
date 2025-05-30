@@ -26,6 +26,19 @@ Possible Responses:
 
 If you do not receive a response (NXDOMAIN), then Quad9 was not used to perform this DNS query.
 
+### Resolve-DnsName : proto.on.quad9.net. : DNS name does not exist
+
+If you are using Windows and receive the following message from Powershell when running the `Resolve-DnsName` query, consider disabling your VPN:
+
+```plaintext
+Resolve-DnsName : proto.on.quad9.net. : DNS name does not exist
+At line:1 char:1
++ Resolve-DnsName -Type txt proto.on.quad9.net.
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (proto.on.quad9.net.:String) [Resolve-DnsName], Win32Exception
+    + FullyQualifiedErrorId : DNS_ERROR_RCODE_NAME_ERROR,Microsoft.DnsClient.Commands.ResolveDnsName
+```
+
 ## Identifying a Quad9 block
 
 The quickest way to see if a domain is blocked at Quad9 is using our [Blocked Domain Tester](https://quad9.net/result).
