@@ -1,3 +1,13 @@
+## Quad9, DNS, and VPNs
+
+The vast majority of VPN clients do not utilize the DNS servers assigned in DHCP (by the router) or configured in the local system settings.
+
+If using a VPN, whether sometimes or permanently, and it's desired to utilize Quad9 while the VPN is enabled, it will be required to configure the Quad9 IP addresses in the "Custom DNS" settings of the VPN client. Most, but not all, VPN clients have this functionality, and the exact instructions will vary depending on the client. Please refer to the VPN client's documentation and/or support resources.
+
+If using a VPN, please keep this in mind before running the `on.quad9.net` or protocol tests below.
+
+Configuring Quad9 in a VPN, when the VPN is enabled, also implies that the connection between the client and Quad9 will not be encrypted by DNS over HTTPs or DNS over TLS, regardless if the router or device has DNS over TLS or DNS over HTTPS enabled locally.
+
 ## How Do I Confirm I'm Using Quad9?
 
 The simplest test is to open [on.quad9.net](https://on.quad9.net) in your browser of choice.
