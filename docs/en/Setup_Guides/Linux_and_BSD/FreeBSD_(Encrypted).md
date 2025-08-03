@@ -73,8 +73,6 @@ Original /etc/resolv.conf saved as /var/backups/resolv.conf.20220625.200835
 ```
 ## Instructions
 
-* Configuring local_unbound for DNS over TLS to Quad9
-
 This command will back up the default configuration files, download the modified config files from the attachment of this article, and restart the local_unbound service.
 
 ```
