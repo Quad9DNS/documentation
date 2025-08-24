@@ -38,7 +38,7 @@ Navigate to `Services` -> `DNS Resolver` on the top menu.
 * Click `Save` at the bottom of the screen.
 * Click `Apply` Changes near the top of the screen to apply the saved changes.
 
-## Veryify Configuration
+## Verify Configuration
 
 You can confirm that pfSense is now sending your queries via DNS over TLS using the built-in Packet Capture Tool.
 
