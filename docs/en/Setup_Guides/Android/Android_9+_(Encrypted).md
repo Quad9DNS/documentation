@@ -8,7 +8,7 @@ Android 9 and later includes the `Private DNS` feature, which allows you to conn
 ## Instructions
 
 * Open the :material-cog: `Settings` app on your Android device.
-    * Select :material-wifi: ` Network & Internet`.
+    * Search for `Private DNS` in the Search bar.
         * Select `Private DNS`.
 
 * Select `Private DNS provider hostname`
