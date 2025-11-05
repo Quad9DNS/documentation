@@ -127,3 +127,7 @@ Quad9 utilizes multiple network providers in our global network. When running a 
 These organizations are also listed on the Sponsors page of the Quad9 website: [quad9.net/about/sponsors](https://quad9.net/about/sponsors)
 
 If you are trying to simply determine if you are using Quad9, you can visit [on.quad9.net](https://on.quad9.net) instead of relying on a DNS leak test. However, a DNS leak test can be useful to ensure you're exclusively using Quad9, which is required to ensure that all of your DNS requests will be protected by Quad9.
+
+## Oblivious DNS over HTTPS / ODoH
+
+Offering [Oblivious DNS over HTTPS (ODoH)](https://datatracker.ietf.org/doc/rfc9230/) is not currently on the Quad9 roadmap. Although there is [an open feature request in GitHub](https://github.com/PowerDNS/pdns/issues/10652) to support ODoH in the open-source software used by Quad9, and assuming that is implemented in the future, there are significant security concerns and complexities involved that would make this an incredibly difficult protocol to support while maintaining the integrity of our services. Quad9 will continue to keep this in mind in the future and once supported in software.
