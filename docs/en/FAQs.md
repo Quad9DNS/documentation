@@ -131,3 +131,15 @@ If you are trying to simply determine if you are using Quad9, you can visit [on.
 ## Oblivious DNS over HTTPS / ODoH
 
 Offering [Oblivious DNS over HTTPS (ODoH)](https://datatracker.ietf.org/doc/rfc9230/) is not currently on the Quad9 roadmap. Although there is [an open feature request in GitHub](https://github.com/PowerDNS/pdns/issues/10652) to support ODoH in the open-source software used by Quad9, and assuming that is implemented in the future, there are significant security concerns and complexities involved that would make this an incredibly difficult protocol to support while maintaining the integrity of our services. Quad9 will continue to keep this in mind in the future and once supported in software.
+
+## Cache Flushing
+
+Quad9 does not currently offer a public, cache flush tool. There are various technical and security limitations that prevent Quad9 from offering this feature at this time.
+
+Quad9 does not honor cache flush requests submitted to our support team.
+
+Quad9 is working with our open-source software partner to make the necessary performance and scaling improvements to the code base to be able to support this in the future.
+
+Before making major changes in DNS, such as changing authoritative DNS services, a standard practice is to lower the TTL significantly of the modified resource records and allowing enough time to elapse for the previous TTL to expire, thus providing the opportunity to revert the changes with limited impact in case of misconfiguration.
+
+In the future, Quad9 may be able to offer a cache flush tool or honor cache flush requests submitted to our support team, but there is no timeline for offering this feature.
