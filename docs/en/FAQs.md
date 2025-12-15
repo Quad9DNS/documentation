@@ -8,6 +8,31 @@ If using a VPN, please keep this in mind before running the `on.quad9.net` or pr
 
 Configuring Quad9 in a VPN, when the VPN is enabled, also implies that the connection between the client and Quad9 will not be encrypted by DNS over HTTPs or DNS over TLS, regardless if the router or device has DNS over TLS or DNS over HTTPS enabled locally.
 
+## DNS over HTTPS - No HTTP/1.1 Support
+
+Quad9 started [globally disabling HTTP/1.1](https://quad9.net/news/blog/doh-http-1-1-retirement/) support in DNS over HTTPS on December 15th, 2025. Please consider reading the article for context regarding this decision.
+
+If your device's or client's DNS over HTTPS implementation does not support HTTP/2, here are some alternatives for utilizing encrypted DNS with Quad9, which can often be utilized in containers, Docker, VMs, system services, etc:
+
+**DNS Forwarders/Resolvers /w HTTP/2 DoH or DoT Support**:
+
+* dnsdist
+* unbound
+* pdns-recursor
+* Knot Resolver
+* bind
+
+**DNS Proxies /w HTTP2 DoH or DoT Support**:
+
+* dnscrypt-proxy
+* AdGuard Home
+
+### Confirmed DoH-capable Devices/Libraries without HTTP/2 Support
+
+This is a list of devices or libraries that, to the best of our knowledge, do not support HTTP/2.0 in the DNS over HTTPS implementation.
+
+* Mikrotik RouterOS (All versions)
+
 ## How Do I Confirm I'm Using Quad9?
 
 The simplest test is to open [on.quad9.net](https://on.quad9.net) in your browser of choice.
