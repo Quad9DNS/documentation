@@ -27,7 +27,7 @@ sudo sed -i 's/#DNSOverTLS=no/DNSOverTLS=yes/g' /etc/systemd/resolved.conf
 * Reporniți `systemd-resolvd` și `networking services` pentru a recunoaște modificările la fișier:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 ## Verificarea configurației
 
@@ -51,7 +51,7 @@ sudo sed -i 's/DNSOverTLS=yes/#DNSOverTLS=no/g' /etc/systemd/resolved.conf
 * Reporniți serviciile `systemd-resolvd` și `networking` pentru a recunoaște modificările aduse fișierului pe care tocmai le-am făcut:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 
 Întrebări? Probleme? Nu a funcționat? Contactați-ne!

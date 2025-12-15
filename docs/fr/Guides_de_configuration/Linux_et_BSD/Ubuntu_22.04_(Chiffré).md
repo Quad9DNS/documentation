@@ -25,7 +25,7 @@ sudo sed -i 's/#DNSOverTLS=no/DNSOverTLS=yes/g' /etc/systemd/resolved.conf
 * Redémarer `systemd-resolvd` et `networking services` afin d'enregistrer les changements dans le fichier:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 ## Verifier la Configuration
 
@@ -49,7 +49,7 @@ sudo sed -i 's/DNSOverTLS=yes/#DNSOverTLS=no/g' /etc/systemd/resolved.conf
 * Redémarrez les services `systemd-resolvd` et `networking` afin d'enregistrer les changements que nous venons d'effectuer dans le fichier:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 
 Vous avez des questions? Vous rencontrez un probleme? Cela n'a pas marché? N'hésitez pas à nous contacter!
