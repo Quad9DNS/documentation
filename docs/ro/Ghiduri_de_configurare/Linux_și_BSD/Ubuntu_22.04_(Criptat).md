@@ -34,7 +34,7 @@ sudo systemctl restart systemd-resolved.service && sudo service network-manager 
 * Confirmați că DNS over TLS este utilizat deschizând aplicația `Terminal` și executând următoarea comandă, introducând parola și apăsând `Enter`:
 
 ```
-$ dig +short txt proto.on.quad9.net.
+dig +short txt proto.on.quad9.net.
 ```
 Dacă răspunsul este `dot.`, atunci funcționează! Dacă răspunsul este `do53-udp.`, atunci încă se folosește text clar. Dacă nu există niciun răspuns, înseamnă că Quad9 nu a fost configurat probabil în `Network Settings`.
 
