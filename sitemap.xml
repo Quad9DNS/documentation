@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://quad9dns.github.io/documentation/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/FAQs/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/FAQs/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/FAQs/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/services/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/services/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/services/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Quad9_For_Organizations/DNS_Forwarder_Best_Practices/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Quad9_For_Organizations/DNS_Forwarder_Best_Practices/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/ChromeOS_%28Chromebook%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/ChromeOS_%28Chromebook%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Android/Android_9%2B_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Android/Android_9%2B_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/DNS_Forwarders/Windows_Server/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/DNS_Forwarders/Windows_Server/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Fedora_38/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Fedora_38/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/FreeBSD_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/FreeBSD_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Linux_Mint_21.2/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Linux_Mint_21.2/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/MX_Linux_23/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/MX_Linux_23/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/OpenBSD_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/OpenBSD_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Ubuntu_20.04_and_22.04/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Ubuntu_20.04_and_22.04/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Ubuntu_22.04_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Linux_and_BSD/Ubuntu_22.04_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Miscellaneous/Cloudflared_and_Quad9/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Miscellaneous/Cloudflared_and_Quad9/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Miscellaneous/Pi-Hole/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Miscellaneous/Pi-Hole/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/IPFire_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/IPFire_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/MikroTik_RouterOS_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/MikroTik_RouterOS_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/OPNsense_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/OPNsense_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/OpenWrt_LuCi/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/OpenWrt_LuCi/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/pfSense_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Open-Source_Routers/pfSense_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Windows/Windows_10/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Windows/Windows_10/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/Windows/Windows_11_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/Windows/Windows_11_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/Setup_Guides/iOS/iOS_14_and_later_%28Encrypted%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/Setup_Guides/iOS/iOS_14_and_later_%28Encrypted%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/FAQ/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/FAQ/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/FAQ/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/services/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/services/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/services/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/ChromeOS_%28Chromebook%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/ChromeOS_%28Chromebook%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Android/Android_9%2B_%28Crypt%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Android/Android_9%2B_%28Crypt%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/Fedora_38/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/Fedora_38/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/FreeBSD_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/FreeBSD_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/OpenBSD_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/OpenBSD_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/Ubuntu_20.04_et_22.04/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/Ubuntu_20.04_et_22.04/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/Ubuntu_22.04_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Linux_et_BSD/Ubuntu_22.04_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/MacOS/Big_Sur_et_plus_r%C3%A9cent_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/MacOS/Big_Sur_et_plus_r%C3%A9cent_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Miscellaneous/Cloudflared_et_Quad9/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Miscellaneous/Cloudflared_et_Quad9/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Miscellaneous/Pi-Hole/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Miscellaneous/Pi-Hole/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/IPFire_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/IPFire_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/MikroTik_RouterOS_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/MikroTik_RouterOS_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/OPNsense_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/OPNsense_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/OpenWrt_LuCi/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/OpenWrt_LuCi/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/pfSense_%28Chiffr%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Open-Source_Routers/pfSense_%28Chiffr%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Windows/Windows_10/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Windows/Windows_10/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Windows/Windows_11_%28Crypt%C3%A9%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Guides_de_configuration/Windows/Windows_11_%28Crypt%C3%A9%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/fr/Quad9_pour_les_organisations/Meilleures%20pratiques%20du%20DNS%20forwarder/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/Quad9_pour_les_organisations/Meilleures%20pratiques%20du%20DNS%20forwarder/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/FAQ/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/FAQ/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/FAQ/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/servicios/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/servicios/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/ChromeOS_%28Chromebook%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/ChromeOS_%28Chromebook%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Android/Android_9%2B_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Android/Android_9%2B_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/FreeBSD_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/FreeBSD_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/OpenBSD_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/OpenBSD_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/Ubuntu_20.04_y_22.04/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/Ubuntu_20.04_y_22.04/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/Ubuntu_22.04_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/Ubuntu_22.04_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Miscel%C3%A1neas/Cloudflared_y_Quad9/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Miscel%C3%A1neas/Cloudflared_y_Quad9/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/IPFire_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/IPFire_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/MikroTik_RouterOS_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/MikroTik_RouterOS_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/OPNsense_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/OPNsense_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/OpenWrt_%28LuCi%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/OpenWrt_%28LuCi%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/pfSense_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Open_Source_Enrutadores/pfSense_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Windows/Windows_10/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/Windows/Windows_10/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/iOS/iOS_14_y_despues_%28Encriptado%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Gu%C3%ADas_de_configuraci%C3%B3n/iOS/iOS_14_y_despues_%28Encriptado%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/es/Quad9_para_organizaciones/Recomendaciones_para_el_reenviardor_DNS/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/Quad9_para_organizaciones/Recomendaciones_para_el_reenviardor_DNS/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://quad9dns.github.io/documentation/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://quad9dns.github.io/documentation/fr/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/FAQs/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/FAQs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://quad9dns.github.io/documentation/FAQs/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/servicii/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/servicii/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/ChromeOS_%28Chromebook%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/ChromeOS_%28Chromebook%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Android/Android_9%2B_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Android/Android_9%2B_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/DNS_Forwarders/Windows_Server/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/DNS_Forwarders/Windows_Server/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Fedora_38/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Fedora_38/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/FreeBSD_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/FreeBSD_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Linux_Mint_21.2/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Linux_Mint_21.2/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/MX_Linux_23/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/MX_Linux_23/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/OpenBSD_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/OpenBSD_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Ubuntu_20.04_and_22.04/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Ubuntu_20.04_and_22.04/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Ubuntu_22.04_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Linux_%C8%99i_BSD/Ubuntu_22.04_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/MacOS/Big_Sur%2B_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/MacOS/Big_Sur%2B_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Miscellaneous/Cloudflared_and_Quad9/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Miscellaneous/Cloudflared_and_Quad9/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Miscellaneous/Pi-Hole/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Miscellaneous/Pi-Hole/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/IPFire_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/IPFire_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/MikroTik_RouterOS_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/MikroTik_RouterOS_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/OPNsense_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/OPNsense_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/OpenWrt_LuCi/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/OpenWrt_LuCi/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/pfSense_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Open-Source_Routers/pfSense_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Windows/Windows_10/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Windows/Windows_10/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Windows/Windows_11_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/Windows/Windows_11_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/iOS/iOS_14%2B_%28Criptat%29/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Ghiduri_de_configurare/iOS/iOS_14%2B_%28Criptat%29/"/>
+    </url>
+    <url>
+        <loc>https://quad9dns.github.io/documentation/ro/Quad9_pentru_Organiza%C8%9Bii/DNS_Forwarder_Best_Practices/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://quad9dns.github.io/documentation/ro/Quad9_pentru_Organiza%C8%9Bii/DNS_Forwarder_Best_Practices/"/>
+    </url>
+</urlset>
