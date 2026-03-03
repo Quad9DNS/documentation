@@ -40,4 +40,3 @@ Quad9 ascultă pe următoarele porturi non-standard pentru o mai bună disponibi
 | --------------------------- | ------------------ | ------------- | 
 | `UDP/TCP (Plaintext)`       | `53`               | `9953` | 
 | `DNS over TLS`              | `853`              | `8853` |
-| `DNS over HTTPS`            | `443`              | `5053` |

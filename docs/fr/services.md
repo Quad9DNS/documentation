@@ -41,4 +41,3 @@ Quad9 propose les ports non standard suivants pour une meilleure disponibilité 
 | --------------------------- | ------------------ | ------------- | 
 | `UDP/TCP (Plaintext)`       | `53`               | `9953` | 
 | `DNS over TLS`              | `853`              | `8853` |
-| `DNS over HTTPS`            | `443`              | `5053` |

@@ -40,5 +40,4 @@ Quad9 escucha en los siguientes puertos no estándar para una mejor disponibilid
 | Protocolo | Puerto estándar | Puerto alternativo
 | --------------------------- | ------------------ | ------------- | 
 | `UDP/TCP (Plaintext)`       | `53`               | `9953` | 
-| `DNS sobre TLS`              | `853`              | `8853` |
-| `DNS sobre HTTPS`            | `443`              | `5053` |
+| `DNS over TLS`              | `853`              | `8853` |

@@ -41,4 +41,3 @@ Quad9 listens on the following, non-standard ports for better availability of ou
 | --------------------------- | ------------------ | ------------- | 
 | `UDP/TCP (Plaintext)`       | `53`               | `9953` | 
 | `DNS over TLS`              | `853`              | `8853` |
-| `DNS over HTTPS`            | `443`              | `5053` |
