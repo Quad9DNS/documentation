@@ -29,7 +29,7 @@ DNS over HTTPS is recommended if the device will frequently connect to guest Wi-
 !!! warning "DNS over TLS"
     If connected to a Wi-Fi network which blocks DNS over TLS, which may occur on restrictive network firewalls, you will have to disable the profile or disconnect from the network to regain DNS resolution. This solution does not allow for unencrypted "fallback" behavior. DNS over HTTPS is recommended for most users
 
-!!! warning "Profiles expire on January 29th, 2027!"
+!!! warning "Profiles expire on January 19th, 2027!"
     These profiles are only valid until they expire, at which point, they will automatically disable until a new profile is installed. This is by design of Apple, and there is no way around it."
 
 ## Download Profile
