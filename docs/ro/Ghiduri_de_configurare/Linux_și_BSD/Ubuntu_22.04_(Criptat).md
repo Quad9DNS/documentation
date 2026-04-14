@@ -27,14 +27,14 @@ sudo sed -i 's/#DNSOverTLS=no/DNSOverTLS=yes/g' /etc/systemd/resolved.conf
 * Reporniți `systemd-resolvd` și `networking services` pentru a recunoaște modificările la fișier:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 ## Verificarea configurației
 
 * Confirmați că DNS over TLS este utilizat deschizând aplicația `Terminal` și executând următoarea comandă, introducând parola și apăsând `Enter`:
 
 ```
-$ dig +short txt proto.on.quad9.net.
+dig +short txt proto.on.quad9.net.
 ```
 Dacă răspunsul este `dot.`, atunci funcționează! Dacă răspunsul este `do53-udp.`, atunci încă se folosește text clar. Dacă nu există niciun răspuns, înseamnă că Quad9 nu a fost configurat probabil în `Network Settings`.
 
@@ -51,7 +51,7 @@ sudo sed -i 's/DNSOverTLS=yes/#DNSOverTLS=no/g' /etc/systemd/resolved.conf
 * Reporniți serviciile `systemd-resolvd` și `networking` pentru a recunoaște modificările aduse fișierului pe care tocmai le-am făcut:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 
 Întrebări? Probleme? Nu a funcționat? Contactați-ne!

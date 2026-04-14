@@ -25,14 +25,14 @@ sudo sed -i 's/#DNSOverTLS=no/DNSOverTLS=yes/g' /etc/systemd/resolved.conf
 * Redémarer `systemd-resolvd` et `networking services` afin d'enregistrer les changements dans le fichier:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 ## Verifier la Configuration
 
 * Verifiez que DNS over TLS est actif en ouvrant l'application `Terminal` et entrez les commandes suivantes, saisissez votre mot de passe et appuyez sur `Entrée`:
 
 ```
-$ dig +short txt proto.on.quad9.net.
+dig +short txt proto.on.quad9.net.
 ```
 Si la réponse est `dot.`, cela signifie que ca marche! Si la réponse est `do53-udp.`, alors il utilise encore du plaintext. S'il n'y a pas de réponse, cela signifie que Quad9 n'a probablement pas été configuré dans le `Paramètres réseau`.
 
@@ -49,7 +49,7 @@ sudo sed -i 's/DNSOverTLS=yes/#DNSOverTLS=no/g' /etc/systemd/resolved.conf
 * Redémarrez les services `systemd-resolvd` et `networking` afin d'enregistrer les changements que nous venons d'effectuer dans le fichier:
 
 ```
-sudo systemctl restart systemd-resolved.service && sudo service network-manager restart
+sudo systemctl restart systemd-resolved.service && sudo service NetworkManager restart
 ```
 
 Vous avez des questions? Vous rencontrez un probleme? Cela n'a pas marché? N'hésitez pas à nous contacter!
