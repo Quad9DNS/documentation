@@ -57,7 +57,7 @@ La ieșire ar trebui să apară `doh.` (DNS over HTTPS) în secțiunea `NameHost
 ```
 Name                           Type   TTL   Section    NameHost
 ----                           ----   ---   -------    --------
-proto.on.quad9.net             CNAME  60    Answer     doh
+proto.on.quad9.net             TXT    60    Answer     doh
 ```
 
 Întrebări? Probleme? Nu a funcționat? Contactați-ne!

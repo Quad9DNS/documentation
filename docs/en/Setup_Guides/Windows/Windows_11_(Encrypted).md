@@ -57,7 +57,7 @@ The output should show `doh.` (DNS over HTTPS) in the `NameHost` section if you 
 ```
 Name                           Type   TTL   Section    NameHost
 ----                           ----   ---   -------    --------
-proto.on.quad9.net             CNAME  60    Answer     doh
+proto.on.quad9.net             TXT    60    Answer     doh
 ```
 
 Questions? Issues? Didn't work? Contact us!
