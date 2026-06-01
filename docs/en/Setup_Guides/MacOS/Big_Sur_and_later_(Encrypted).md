@@ -62,9 +62,9 @@ Download one of the profiles here directly using Safari on your MacOS device. Yo
 ## Installation
 
 * Navigate to your Downloads folder and select to the profile you just downloaded.
-    * Open `Settings` > `Profile Downloaded` and select the Quad9 profile you opened.
+    * Open `System Settings` > `Profile Downloaded` and select the Quad9 profile you opened.
         * Click Install
-            * Enter your Mac's passcode
+            * Enter your Mac's passcode, if prompted
 !!! note
     You will receive a warning message warning that your network traffic may be filtered or monitored by the DNS server. While Quad9’s profile can protect your device by filtering potentially malicious traffic, none of your traffic will be logged by Quad9. Please refer to our Privacy Policy for more information
 
