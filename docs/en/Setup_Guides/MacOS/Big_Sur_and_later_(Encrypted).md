@@ -1,6 +1,6 @@
 ## Overview
 
-DNS over TLS (DoT) and DNS over HTTPS (DoH) are now supported natively in MacOS Big Sur and later.
+DNS over TLS (DoT) and DNS over HTTPS (DoH) are now supported natively in macOS Big Sur and later.
 
 Please follow the steps below to install the Quad9 DNS Profile.
 
@@ -30,10 +30,10 @@ DNS over HTTPS is recommended if the device will frequently connect to guest Wi-
     If connected to a Wi-Fi network which blocks DNS over TLS, which may occur on restrictive network firewalls, you will have to disable the profile or disconnect from the network to regain DNS resolution. This solution does not allow for unencrypted "fallback" behavior. DNS over HTTPS is recommended for most users
 
 !!! warning "Profiles expire on January 19th, 2027!"
-    These profiles are only valid until they expire, at which point, they will automatically disable until a new profile is installed. This is by design of Apple, and there is no way around it."
+    These profiles are only valid until they expire, at which point, they will automatically disable until a new profile is installed. This is by design of Apple, and there is no way around it.
 
 ## Download Profile
-Download one of the profiles here directly using Safari on your MacOS device. You must use Safari to download the file.
+Download one of the profiles here directly using Safari on your macOS device. You must use Safari to download the file.
 
 * 9.9.9.9 (DNSSEC, Threat-Blocking)
     * [:fontawesome-solid-star:{ .heart } Recommended: HTTPS (.9) :fontawesome-solid-download:](https://docs.quad9.net/assets/mobileconfig/Quad9_Secured_DNS_over_HTTPS_20260119.mobileconfig){ .md-button .md-button--primary }
