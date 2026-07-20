@@ -12,31 +12,37 @@ La manière la plus simple pour configurer Quad9 sur tout votre réseau se fait 
 
 * Faites un clic droit sur votre icône réseau (Filaire ou WiFi) dans la barre d'outil en bas à droite et cliquez sur `Ouvrir les paramètres réseau et Internet`.
 
-* Sélectionnez `Propriétés`.
+* Sélectionnez `Modifier les options d'adaptateur`.
 
-* Sous Paramètres IP, Sélectionnez `Modifier`.
+* Sélectionnez votre adaptateur réseau actif, puis sélectionnez `Propriétés`.
 
-* Sous `Modifier les Parametres IP` Sélectionnez `Manuel`. Puis cliquez sur l'icône sous `IPv4`. Assurez vous que IPv4 soit activé en bleu.
+* Sélectionnez `Protocole Internet version 4 (TCP/IPv4)`. Puis cliquez sur `Propriétés`.
 
-* Entrez: `9.9.9.9` dans la barre sous `DNS preféré`.
+* Laissez `Obtenir une adresse IP automatiquement` sélectionné.
 
-* Entrez: `149.112.112.112` dans la barre sous `Autre DNS`.
+* Sélectionnez `Utiliser l'adresse de serveur DNS suivante`.
 
-* Cliquez sur `Enregistrer`.
+* Entrez: `9.9.9.9` dans la barre sous `Serveur DNS préféré`.
 
-* Fermez toutes les fenêtres de configuration Windows.
+* Entrez: `149.112.112.112` dans la barre sous `Serveur DNS auxiliaire`.
+
+* Cliquez sur `OK`.
 
 ### IPv6
 
 Si votre réseau supporte IPv6, il est également recommandé de configurer l'addresse IPv6 de Quad9. Si vous n'êtes pas sûr que IPv6 soit configuré sur votre réseau, vous pouvez le vérifier ici: https://test-ipv6.com/
 
-* Suivez le même procédé que pour IPv4. Cliquez sur l'icône sous `IPv6`. Assurez vous que IPv6 soit activé en bleu.
+* Sélectionnez `Protocole Internet version 6 (TCP/IPv6)`. Puis cliquez sur `Propriétés`.
 
-* Entrez: `2620:fe::fe` dans la barre sous `DNS preféré`.
+* Laissez `Obtenir une adresse IPv6 automatiquement` sélectionné.
 
-* Entrez: `2620:fe::9` dans la barre sous `Autre DNS`.
+* Sélectionnez `Utiliser l'adresse de serveur DNS suivante`.
 
-* Cliquez sur `Enregistrer`.
+* Entrez: `2620:fe::fe` dans la barre sous `Serveur DNS préféré`.
+
+* Entrez: `2620:fe::9` dans la barre sous `Serveur DNS auxiliaire`.
+
+* Cliquez sur `OK`.
 
 * Fermez toutes les fenêtres de configuration Windows.
 
