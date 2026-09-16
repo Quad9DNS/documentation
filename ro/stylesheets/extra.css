@@ -1,0 +1,23 @@
+@keyframes heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+}
+.heart {
+  animation: heart 1000ms infinite;
+}
+
+.md-header {
+  background-color: hsla(0, 0%, 0%, 0.32);
+}
+
+.md-ellipsis {
+  font-size: 16px;
+}
+
+.md-nav__title {
+  font-size: 16px;
+}
