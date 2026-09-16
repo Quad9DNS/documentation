@@ -46,7 +46,7 @@ If using IPv6, which you can confirm here: https://test-ipv6.com/, you should al
 
 ## Verify Configuration
 
-* Open the Terminal application, and execute this command:
+* Open Windows PowerShell and execute this command:
 
 ```
 Resolve-DnsName -Type txt proto.on.quad9.net.

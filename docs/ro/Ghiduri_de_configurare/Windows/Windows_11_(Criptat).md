@@ -46,7 +46,7 @@ Dacă utilizați IPv6, pe care îl puteți confirma aici: https://test-ipv6.com/
 
 ## Verificarea configurației
 
-* Deschideți aplicația Terminal și executați această comandă:
+* Deschideți Windows PowerShell și executați această comandă:
 
 ```
 Resolve-DnsName -Type txt proto.on.quad9.net.
