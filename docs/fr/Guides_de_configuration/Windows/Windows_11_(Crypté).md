@@ -49,7 +49,7 @@ Si votre réseau supporte IPv6, il est également recommandé de configurer l'ad
 ## Verifier la Configuration
 
 
-* Ouvrez le Terminal Windows Powershell et exécutez cette commande:
+* Ouvrez Windows PowerShell et exécutez cette commande:
 
 ```
 Resolve-DnsName -Type txt proto.on.quad9.net.
